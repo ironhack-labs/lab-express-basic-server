@@ -34,7 +34,7 @@ cd lab-express-basic-server
 ```shell
 git add .
 git commit -m "done"
-git push origin main
+git push origin master
 ```
 
 - Create a Pull Request and submit your assignment
