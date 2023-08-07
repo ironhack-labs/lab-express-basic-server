@@ -1,6 +1,9 @@
 # LAB | Express Basic Server
 
-## Learning Goals
+<details>
+  <summary>
+    <h2>Learning Goals</h2>
+  </summary>
 This exercise allows you to practice and apply the concepts and techniques taught in class.
 
 Upon completion of this exercise, you will be able to:
@@ -12,10 +15,21 @@ Upon completion of this exercise, you will be able to:
 - Set up middleware in Express.js to perform additional request processing such as logging, serving static files, etc.
 - Implement server routes that handle `GET` HTTP requests
 
+  <br>
+
+  <hr>
+
+</details>
+
 ## Introduction
 
 In this lab, we're diving into practical application with ExpressJS. You'll be setting up a basic server to host a personal blog with a projects showcase section - something that every developer needs. In each iteration, we will guide you in setting up the app and defining routes, resulting in a fully functional server and a personal blog website. Let's get started!
 
+<p align="center">
+  <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/00-lab-express-basic-site-overview.png" alt="Example - Finished LAB" />
+</p>
+
+<br>
 
 ## Setup
 - Fork this repo
@@ -48,13 +62,24 @@ Try your best to solve each iteration on your own before checking the solution. 
 <br>
 
 ### Iteration 0 | Set up the project
-To set up the project, follow these steps:
+To set up the project, follow the below steps.
+
+<br>
+
+**1. Install dependencies:**
 - Run `npm init -y` to create a package.json file.
 - Run `npm install express` to install the Express package.
 - Run `npm install morgan` to install the Morgan package.
+
+<br>
+
+**2. Organize the project files:**
 - In the root of the project, create a `views/` folder that will hold your .html files.
 - Move the provided HTML files `home.html`, `blog.html`, and `not-found.html` into the `views/` folder.
-- In the root of the project, create a `public/` folder that will hold other static files, such as your CSS stylesheets, scripts and images.
+
+<br>
+
+- In the root of the project, create a `public/` folder that will hold other static files, such as your CSS stylesheets, JavaScript and images.
 - Move the provided CSS files `styles.css` and `profile.png` into the `public/` folder.
 
 <br>
@@ -63,7 +88,7 @@ To set up the project, follow these steps:
 ### Iteration 1 | Create Express Server
 Next, you should create an Express server in `app.js` and set up basic middleware. To do this, while in `app.js` file do the following:
 
-- Import the Express package using `require()`
+- Import the `express` package using `require()`
 - Import the `morgan` package using `require()`
 - Create an Express app ([docs](https://expressjs.com/en/5x/api.html))
 - Set up the Express server to listen on port `5005`
