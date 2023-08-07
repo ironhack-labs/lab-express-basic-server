@@ -4,16 +4,18 @@
   <summary>
     <h2>Learning Goals</h2>
   </summary>
-This exercise allows you to practice and apply the concepts and techniques taught in class.
 
-Upon completion of this exercise, you will be able to:
+  This exercise allows you to practice and apply the concepts and techniques taught in class. 
 
-- Set up a Node.js project and initialize `package.json`
-- Install Express.js in a Node.js project using `npm`
-- Use the `require()` syntax to import modules and packages
-- Create a simple HTTP server using Express.js
-- Set up middleware in Express.js to perform additional request processing such as logging, serving static files, etc.
-- Implement server routes that handle `GET` HTTP requests
+  Upon completion of this exercise, you will be able to:
+
+
+  - Set up a Node.js project and initialize `package.json`
+  - Install Express.js in a Node.js project using `npm`
+  - Use the `require()` syntax to import modules and packages
+  - Create a simple HTTP server using Express.js
+  - Set up middleware in Express.js to perform additional request processing such as logging, serving static files, etc.
+  - Implement server routes that handle `GET` HTTP requests
 
   <br>
 
