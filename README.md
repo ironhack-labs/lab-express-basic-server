@@ -120,7 +120,7 @@ Next, you should create an Express server in `app.js` and set up basic middlewar
 
 ### Iteration 2 | Create Home Route
 
-Create a route handler for `GET` `/` that responds back with the provided HTML file `views/home.html`.
+Create a route handler for `GET` `/` that responds back with the provided HTML file `home.html`.
 
 
 <br>
@@ -144,7 +144,7 @@ Create a route handler for `GET` `/` that responds back with the provided HTML f
 
 ### Iteration 3 | Create Blog Route
 
-Create a route handler for `GET` `/blog` that responds back with the provided HTML file `views/blog.html`.
+Create a route handler for `GET` `/blog` that responds back with the provided HTML file `blog.html`.
 
 <br>
 
