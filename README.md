@@ -167,8 +167,9 @@ Create a route handler for `GET` `/blog` that responds back with the provided HT
 
 
 ### Iteration 4 | Server JSON Data for Projects
-- Create a route handler for `GET` `/api/projects` that responds back with the provided JSON data from `projects.json`.
-- This JSON data will be used to render the projects section in the home page.
+
+Create a route handler for `GET` `/api/projects` that responds back with the provided JSON data from `projects.json`.
+The JSON data returned in response will be used in the _home page_ to render the projects section.
 
 <br>
 
@@ -188,9 +189,9 @@ Create a route handler for `GET` `/blog` that responds back with the provided HT
 
 <br>
 
-### Iteration 5 |  Server JSON Data for Articles
-- Create a route handler for `GET` `/api/articles` that responds back with the provided JSON data from `articles.json`.
-- This JSON data will be used to render the articles section in the blog page.
+### Iteration 5 | Server JSON Data for Articles
+Create a route handler for `GET` `/api/articles` that responds back with the provided JSON data from `articles.json`.
+The JSON data returned in response will be used in the _blog page_ to render the projects section.
 
 
 <br>
