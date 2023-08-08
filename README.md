@@ -202,7 +202,7 @@ The JSON data returned in response will be used in the _blog page_ to render the
   <summary><b>Solution</b></summary>
 
   <p align="center">
-    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/05-lab-express-basic-server-articles-route.png" alt="" width="750" />
+    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/05-lab-express-basic-server-articles-route.pn" alt="" width="750" />
   </p>
 
   <br>
