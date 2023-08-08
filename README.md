@@ -28,8 +28,9 @@
 In this lab, we're diving into practical application with ExpressJS. You'll be setting up a basic server to host a personal blog with a projects showcase section - something that every developer needs. In each iteration, we will guide you in setting up the app and defining routes, resulting in a fully functional server and a personal blog website. Let's get started!
 
 <p align="center">
-  <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/00-lab-express-basic-site-overview.png" alt="Example - Finished LAB" />
+  <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/00-lab-express-basic-site-overview.png" alt="Example - Finished LAB" width="700" />
 </p>
+
 
 <br>
 
@@ -130,7 +131,7 @@ Create a route handler for `GET` `/` that responds back with the provided HTML f
   <summary><b>Solution</b></summary>
 
   <p align="center">
-    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/02-lab-express-basic-server-home-page-route.png" alt="home page response" width="700" />
+    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/02-lab-express-basic-server-home-page-route.png" alt="home page response" width="750" />
   </p>
 
   <br>
@@ -154,7 +155,7 @@ Create a route handler for `GET` `/blog` that responds back with the provided HT
 
 
   <p align="center">
-    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/03-lab-express-basic-server-blog-page-route.png" alt="" width="700" />
+    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/03-lab-express-basic-server-blog-page-route.png" alt="" width="750" />
   </p>
 
   <br>
@@ -178,7 +179,7 @@ The JSON data returned in response will be used in the _home page_ to render the
   <summary><b>Solution</b></summary>
 
   <p align="center">
-    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/04-lab-express-basic-server-projects-route.png" alt="" width="700" />
+    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/04-lab-express-basic-server-projects-route.png" alt="" width="750" />
   </p>
 
   <br>
@@ -201,7 +202,7 @@ The JSON data returned in response will be used in the _blog page_ to render the
   <summary><b>Solution</b></summary>
 
   <p align="center">
-    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/05-lab-express-basic-server-articles-route.png" alt="" width="700" />
+    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/05-lab-express-basic-server-articles-route.png" alt="" width="750" />
   </p>
 
   <br>
@@ -225,7 +226,7 @@ Create a route handler for `GET` `*` that responds back with the provided HTML f
   <summary><b>Solution</b></summary>
 
   <p align="center">
-    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/06-lab-express-basic-server-404-route.png" alt="" width="700" />
+    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-express-basic-server/06-lab-express-basic-server-404-route.png" alt="" width="750" />
   </p>
 
   <br>
