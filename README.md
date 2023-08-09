@@ -93,10 +93,9 @@ Next, you should create an Express server in `app.js` and set up basic middlewar
 
 - Import the `express` package using `require()`
 - Import the `morgan` package using `require()`
-- Create an Express app ([docs](https://expressjs.com/en/5x/api.html))
 - Set up the Express server to listen on port `5005`
 - Set up the following middleware that you will need for your Express server:
-  - `express.static()` to serve static files from the `public` folder. This will be used to server the CSS and images for the HTML files.
+  - `express.static()` to serve static files from the `public` folder, such as CSS and images for HTML pages
   - `express.json()` to parse incoming requests with JSON payloads
   - `morgan` logger for logging the incoming requests
 
