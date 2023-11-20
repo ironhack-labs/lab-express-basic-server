@@ -4,12 +4,9 @@
 const logger = require("morgan");
 const express = require("express");
 
-
-
 // CREATE EXPRESS APP
 // Here you should create your Express app:
 const app = express();
-
 
 // MIDDLEWARE
 // Here you should set up the required middleware:
