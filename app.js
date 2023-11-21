@@ -16,7 +16,6 @@ app.use(logger('dev')); // Setup our request logger in our express server
 app.use(express.static('public')); // Make Public Files Accessible (the image and CSS need to be in public folder)
 app.use(express.json()); // Setup our server to use JSON
 
-
 // * ROUTES
 // * √ Start defining your routes here:
 app.get('/', (req, res)=>{
@@ -27,33 +26,29 @@ app.get('/blog', (req, res)=>{
     res.sendFile(__dirname + '/views/blog.html');
 });
 
-app.get('/not-found', (req, res)=>{
-    res.sendFile(__dirname + '/views/not-found.html');
-});
-
-//Iteration 4 | Server JSON Data for Projects
 app.get("/api/projects", (req, res)=>{
-    res.json(projects);
-});
-
-// * START THE SERVER
-// * √ Make your Express server listen on port 5005:
-app.listen(5005, ()=> {console.log("Server listening on port 5005");
+    res.sendFile(__dirname + '/data/projects.json');
 });
 
 // Iteration 5 | Server JSON Data for Articles (in blog page?)
 app.get('/api/articles', (req, res)=>{
     // Send JSON data in the response
-    res.json(articles);
-})
+    res.sendFile(__dirname + "/data/articles.json")
+    });
 
 // Bonus: Iteration 6 | Create a 404 Route
 app.use((req, res, next)=>{ // request, response e next são parametros
     res.status(404).sendFile(__dirname + '/views/not-found.html'); 
 });
 
+// * START THE SERVER
+// * √ Make your Express server listen on port 5005:
+app.listen(5005, ()=> {console.log("Server listening on port 5005.");
+});
+
 // Bonus: Iteration 7 | Customize the Home Page
 // add personal info with name, photo, short bio, GitHub and LinkedIn profiles.
+// not done
 
 // Bonus: Iteration 8 | Set up Nodemon
 // √ npm install nodemon --save-dev 
