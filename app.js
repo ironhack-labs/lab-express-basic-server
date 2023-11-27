@@ -18,8 +18,12 @@ const app = express();
 app.use(express.static('public'));
 app.use(express.json());
 app.use(logger("dev"))
+
 // ROUTES
 // Start defining your routes here:
+app.get('/',(request,response,next) => {
+    response.sendFile(__dirname + "/views/home.html");
+})
 
 
 
