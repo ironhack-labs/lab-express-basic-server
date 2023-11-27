@@ -22,6 +22,10 @@ app.use(logger("dev"));
 // ROUTES
 // Start defining your routes here:
 
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/home.html");
+});
+
 // START THE SERVER
 // Make your Express server listen on port 5005:
 app.listen(5005, () => {
