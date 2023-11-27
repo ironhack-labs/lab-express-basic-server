@@ -21,21 +21,26 @@ app.use(express.static("public"))
 app.use(express.json())
 app.use(logger('dev'))
 
+
 // ROUTES
 // Start defining your routes here:
 
 app.get('/', (request, response, next) => {
-    response.sendFile(__dirname +'/views/homepage.html')
+    response.sendFile(__dirname +'/views/home.html')
 })
 app.get('/blog', (request, response, next) => {
     response.sendFile(__dirname +'/views/blog.html')
 })
 app.get('/api/projects', (request, response, next) => {
-    response.json(projects)
+    response.json('/data/projects')
 })
 app.get('/api/articles', (request, response, next) => {
     response.json(articles)
 })
+app.get('*', (request, response, next) => {
+    response.sendFile(__dirname +'/views/not-found.html')
+})
+
 
 
 // START THE SERVER
