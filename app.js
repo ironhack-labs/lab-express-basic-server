@@ -1,5 +1,7 @@
 // IMPORT PACKAGES
 // Here you should import the required packages for your Express app: `express` and `morgan`
+const projects = require("./data/projects.json")
+const articles = require("./data/articles.json")
 
 const express = require("express")
 const logger = require("morgan")
@@ -8,8 +10,6 @@ const logger = require("morgan")
 // Here you should create your Express app:
 
 const app = express()
-
-
 
 // MIDDLEWARE
 // Here you should set up the required middleware:
@@ -32,7 +32,7 @@ app.get('/blog', (request, response, next) => {
     response.sendFile(__dirname +'/views/blog.html')
 })
 app.get('/api/projects', (request, response, next) => {
-    response.json('/data/projects')
+    response.json(projects)
 })
 app.get('/api/articles', (request, response, next) => {
     response.json(articles)
