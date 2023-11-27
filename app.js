@@ -1,3 +1,6 @@
+const projects = require("./data/projects.json");
+const articles = require("./data/articles.json");
+
 // IMPORT PACKAGES
 // Here you should import the required packages for your Express app: `express` and `morgan`
 
@@ -30,8 +33,12 @@ app.get("/blog", (req, res, next) => {
   res.sendFile(__dirname + "/blog.html");
 });
 
+app.get("/api/projects", (req, res, next) => {
+  res.json(projects);
+});
+
 app.get("/api/articles", (req, res, next) => {
-  res.sendFile(__dirname + "/data/articles.json");
+  res.json(articles);
 });
 
 // START THE SERVER
