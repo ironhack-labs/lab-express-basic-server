@@ -1,3 +1,6 @@
+const projects = require("./data/projects.json");
+const articles = require("./data/articles.json");
+
 // IMPORT PACKAGES
 // Here you should import the required packages for your Express app: `express` and `morgan`
 const express = require('express');
