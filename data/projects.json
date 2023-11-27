@@ -1,34 +1,18 @@
 [ 
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
+        "title": "Dbugger;",
+        "description": "OOP game built with web technologies (HTML, CSS, JavaScript).",
+        "image": "https://raw.githubusercontent.com/cramosp/dbugger-game/main/images/instructions.png",
+        "github": "https://github.com/cramosp/dbugger-game",
+        "deployed": "https://cramosp.github.io/dbugger-game/",
         "techStack": ["HTML", "CSS", "JavaScript"]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
-    },
-    {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
-    {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+        "title": "What now?",
+        "description": "Bootcamp pair project. React application built by ZoCris Organisation.",
+        "image": "https://raw.githubusercontent.com/CrisZohra/random-news-react-app/main/public/capture1.png",
+        "github": "https://github.com/CrisZohra/random-news-react-app",
+        "deployed": "https://what-now-portal.netlify.app/",
+        "techStack": ["React", "Material UI"]
     }
 ]
