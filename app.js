@@ -30,6 +30,10 @@ app.get("/blog", (req, res, next) => {
   res.sendFile(__dirname + "/blog.html");
 });
 
+app.get("/api/articles", (req, res, next) => {
+  res.sendFile(__dirname + "/data/articles.json");
+});
+
 // START THE SERVER
 // Make your Express server listen on port 5005:
 app.listen(5005, () => {
