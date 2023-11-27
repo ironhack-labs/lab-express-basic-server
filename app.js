@@ -40,6 +40,9 @@ app.get("/api/articles", (request,response,next) => {
     response.json(articles);
 });
 
+app.get('*',(request,response,next) => {
+    response.sendFile(__dirname + "/views/not-found.html");
+})
 
 
 // START THE SERVER
