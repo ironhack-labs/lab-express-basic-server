@@ -1,0 +1,30 @@
+*{
+    margin-top: 0%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background: rgb(130, 130, 210);
+    height: 40%;
+
+}
+.card {
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+	 width: 50%;
+	 text-align: center;
+	 border-radius: 16px;
+	 overflow: hidden;
+    
+	}
+   .text {
+     padding: 5px;
+   }
+   a {
+     background-color: #cccccc;
+	 text-decoration: none;
+	 font-size: 20px;
+	 padding: 2px;
+   }
