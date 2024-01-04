@@ -155,6 +155,10 @@ So, your task in this iteration is to **set up `nodemon` and use it to run the s
 
 Create a route handler for `GET` `/` that responds back with the provided HTML file `home.html`.
 
+<br>
+
+To test the route, navigate to [`localhost:5005/`](http://localhost:5005/) in your browser. <br>If everything is set up correctly, you should see the *home page* in the browser.
+
 
 <br>
 
@@ -181,6 +185,10 @@ Create a route handler for `GET` `/blog` that responds back with the provided HT
 
 <br>
 
+To test the route, navigate to [`localhost:5005/blog`](http://localhost:5005/blog) in your browser. <br>If everything is set up correctly, you should see the *blog page* rendered in the browser.
+
+<br>
+
 <details>
 
   <summary><b>Solution</b></summary>
@@ -201,8 +209,13 @@ Create a route handler for `GET` `/blog` that responds back with the provided HT
 
 ### Iteration 5 | JSON Data for Projects
 
-Create a route handler for `GET` `/api/projects` that responds back with the provided JSON data from `projects.json`.
-The JSON data returned in response will be used in the _home page_ to render the projects section.
+Create a route handler for `GET` `/api/projects` that responds back with the JSON data from the file `data/projects.json`.
+<br>The JSON data returned as the response from this route will be used in the _projects section_ to render the list of projects.
+
+<br>
+
+
+To test the route, navigate to [`localhost:5005/api/projects`](http://localhost:5005/api/projects) in your browser. <br>If you set up the route correctly, you should see the *JSON data with projects* sent in the response.
 
 <br>
 
@@ -223,9 +236,12 @@ The JSON data returned in response will be used in the _home page_ to render the
 <br>
 
 ### Iteration 6 | JSON Data for Articles
-Create a route handler for `GET` `/api/articles` that responds back with the provided JSON data from `articles.json`.
-The JSON data returned in response will be used in the _blog page_ to render the projects section.
+Create a route handler for `GET` `/api/articles` that responds back with the JSON data from the file `data/articles.json`.
+<br>The JSON data returned as the response from this route will be used in the _blog page_ to render the articles.
 
+<br>
+
+To test the route, navigate to [`localhost:5005/api/articles`](http://localhost:5005/api/articles) in your browser. <br>If you set up the route correctly, you should see the *JSON data with articles* sent in the response.
 
 <br>
 
