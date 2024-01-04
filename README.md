@@ -132,7 +132,7 @@ So, your task in this iteration is to **set up `nodemon` and use it to run the s
 
 
 - First, run `npm install nodemon --global` to install Nodemon globally on your machine.<br>*If you have already installed Nodemon globally, you can skip the above step.*
-- Then, run `npm i --save-dev nodemon` to install Nodemon as a dev dependency in the current project.
+- Then, run `npm install --save-dev nodemon` to install Nodemon as a dev dependency in the current project.
 - Update the `"scripts"` section in `package.json` to include a `"dev"` script that runs the server using Nodemon:
 
   ```json
