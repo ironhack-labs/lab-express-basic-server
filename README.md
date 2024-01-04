@@ -95,7 +95,7 @@ Next, you should create an Express server in `app.js` and set up basic middlewar
 - Import the `morgan` package using `require()`
 - Set up the Express server to listen on port `5005`
 - Set up the following middleware that you will need for your Express server:
-  - `express.static()` to serve static files from the `public` folder, such as CSS and images for HTML pages
+  - `express.static()` to serve static files from the `public` folder, such as CSS stylesheets and images for HTML pages<br>
   - `express.json()` to parse incoming requests with JSON payloads
   - `morgan` logger for logging the incoming requests
 
@@ -118,9 +118,46 @@ Next, you should create an Express server in `app.js` and set up basic middlewar
 <br>
 
 
-### Iteration 2 | Create Home Route
+### Iteration 2 | Set Up Nodemon and Start the Server
+
+Once you have set up the Express server, the next step is to start the server and make sure that it is running correctly.
+You could start the server with *`node app.js`* but this is will require you to manually restart the server every time you make changes to the code.
+
+A better solution is to run the server using [`nodemon`](https://www.npmjs.com/package/nodemon), which automatically restarts every time you make changes to the code.
+
+
+So, your task in this iteration is to **set up `nodemon` and use it to run the server**. To do this, follow the below steps:
+
+<br>
+
+
+- First, run `npm install nodemon --global` to install Nodemon globally on your machine.<br>*If you have already installed Nodemon globally, you can skip the above step.*
+- Then, run `npm i --save-dev nodemon` to install Nodemon as a dev dependency in the current project.
+- Update the `"scripts"` section in `package.json` to include a `"dev"` script that runs the server using Nodemon:
+
+  ```json
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  ```
+  <br>
+
+- Finally, **start the server** using the following command:
+
+  ```bash
+  npm run dev
+  ```
+
+<br>
+
+
+### Iteration 3 | Create Home Route
 
 Create a route handler for `GET` `/` that responds back with the provided HTML file `home.html`.
+
+<br>
+
+To test the route, navigate to [`localhost:5005/`](http://localhost:5005/) in your browser. <br>If everything is set up correctly, you should see the *home page* in the browser.
 
 
 <br>
@@ -142,9 +179,13 @@ Create a route handler for `GET` `/` that responds back with the provided HTML f
 <br>
 
 
-### Iteration 3 | Create Blog Route
+### Iteration 4 | Create Blog Route
 
 Create a route handler for `GET` `/blog` that responds back with the provided HTML file `blog.html`.
+
+<br>
+
+To test the route, navigate to [`localhost:5005/blog`](http://localhost:5005/blog) in your browser. <br>If everything is set up correctly, you should see the *blog page* rendered in the browser.
 
 <br>
 
@@ -166,10 +207,15 @@ Create a route handler for `GET` `/blog` that responds back with the provided HT
 <br>
 
 
-### Iteration 4 | JSON Data for Projects
+### Iteration 5 | JSON Data for Projects
 
-Create a route handler for `GET` `/api/projects` that responds back with the provided JSON data from `projects.json`.
-The JSON data returned in response will be used in the _home page_ to render the projects section.
+Create a route handler for `GET` `/api/projects` that responds back with the JSON data from the file `data/projects.json`.
+<br>The JSON data returned as the response from this route will be used in the _projects section_ to render the list of projects.
+
+<br>
+
+
+To test the route, navigate to [`localhost:5005/api/projects`](http://localhost:5005/api/projects) in your browser. <br>If you set up the route correctly, you should see the *JSON data with projects* sent in the response.
 
 <br>
 
@@ -189,10 +235,13 @@ The JSON data returned in response will be used in the _home page_ to render the
 
 <br>
 
-### Iteration 5 | JSON Data for Articles
-Create a route handler for `GET` `/api/articles` that responds back with the provided JSON data from `articles.json`.
-The JSON data returned in response will be used in the _blog page_ to render the projects section.
+### Iteration 6 | JSON Data for Articles
+Create a route handler for `GET` `/api/articles` that responds back with the JSON data from the file `data/articles.json`.
+<br>The JSON data returned as the response from this route will be used in the _blog page_ to render the articles.
 
+<br>
+
+To test the route, navigate to [`localhost:5005/api/articles`](http://localhost:5005/api/articles) in your browser. <br>If you set up the route correctly, you should see the *JSON data with articles* sent in the response.
 
 <br>
 
@@ -212,7 +261,7 @@ The JSON data returned in response will be used in the _blog page_ to render the
 
 <br>
 
-### Bonus: Iteration 6 | Create a 404 Route
+### Bonus: Iteration 7 | Create a 404 Route
 Create a route handler for `GET` `*` that responds back with the provided HTML file `views/not-found.html`.
 
 **Note:** This route handler should be placed after all the other route handlers as a catch-all for any other routes that are not defined.
@@ -237,16 +286,10 @@ Create a route handler for `GET` `*` that responds back with the provided HTML f
 <br>
 
 
-### Bonus: Iteration 7 | Customize the Home Page
+### Bonus: Iteration 8 | Customize the Home Page
 
 Update the home page and add your personal information, including your name, photo, short bio, and links to your GitHub and LinkedIn profiles.
 Additionally, you can update the static JSON data for the projects section to include your own projects.
-
-<br>
-
-### Bonus: Iteration 8 | Set up Nodemon
-
-Set up Nodemon to automatically restart the server when changes are made to the code. To do this, you will need to install [`nodemon`](https://www.npmjs.com/package/nodemon) as a dev dependency and add a `"dev"` script in `package.json` to use Nodemon to run `app.js` instead of Node.
 
 <br>
 
