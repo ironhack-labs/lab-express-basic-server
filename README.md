@@ -123,17 +123,18 @@ Next, you should create an Express server in `app.js` and set up basic middlewar
 Once you have set up the Express server, the next step is to start the server and make sure that it is running correctly.
 You could start the server with *`node app.js`* but this is will require you to manually restart the server every time you make changes to the code.
 
-A better solution is to run the server using [`nodemon`](https://www.npmjs.com/package/nodemon), which automatically restarts every time you make changes to the code.
-
-
-So, your task in this iteration is to **set up `nodemon` and use it to run the server**. To do this, follow the below steps:
+A better solution is to run the server using [`nodemon`](https://www.npmjs.com/package/nodemon), which automatically restarts every time you make changes to the code. To set up `nodemon`, follow the below steps:
 
 <br>
 
+**1. Install `nodemon` globally:**
+- Run `npm install nodemon --global` to install Nodemon globally on your machine.
 
-- First, run `npm install nodemon --global` to install Nodemon globally on your machine.<br>*If you have already installed Nodemon globally, you can skip the above step.*
-- Then, run `npm install --save-dev nodemon` to install Nodemon as a dev dependency in the current project.
-- Update the `"scripts"` section in `package.json` to include a `"dev"` script that runs the server using Nodemon:
+<br>
+
+**2. Add `nodemon` as dev dependency:**
+- Run `npm install nodemon --save-dev` to add Nodemon as a dev dependency in the current project.
+- Update the `package.json` -> `"scripts"` section to include a `"dev"` script that uses nodemon to run the server:
 
   ```json
   "scripts": {
@@ -142,7 +143,9 @@ So, your task in this iteration is to **set up `nodemon` and use it to run the s
   ```
   <br>
 
-- Finally, **start the server** using the following command:
+
+**3. Start the server**
+- To start the server using the newly created alias, run the following command:
 
   ```bash
   npm run dev
