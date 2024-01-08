@@ -1,18 +1,18 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
+        "title": "Mario Breakout",
+        "description": "Our project is a Mario-themed twist on the classic 'Breakout' game. Control a platform to bounce a ball, breaking blocks until none are left. A blend of timeless fun and retro nostalgia, reimagined for a modern touch!",
+        "image": "mario-breakout.png",
+        "github": "https://github.com/davidvlucca/project_mario_breakout",
+        "deployed": "https://davidvlucca.github.io/project_mario_breakout/",
         "techStack": ["HTML", "CSS", "JavaScript"]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
+        "title": "Pokedex",
+        "description": "Pokedex project. Full stack application built with React, JSON Server, and React Testing Library",
+        "image": "POKEDEX.JPEG",
+        "github": "https://github.com/VascoGaitinha/Pokedex",
+        "deployed": "HTTPS://MAIN--SPLENDOROUS-DUCKANOO-6D4455.NETLIFY.APP/",
         "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
     },
     {
@@ -22,7 +22,7 @@
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
         "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
+    },
     {
         "title": "Weather Dashboard",
         "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
