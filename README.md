@@ -156,7 +156,7 @@ A better solution is to run the server using [`nodemon`](https://www.npmjs.com/p
 
 ### Iteration 3 | Create Home Route
 
-Create a route handler for `GET` `/` that responds back with the provided HTML file `home.html`.
+Create a route handler for **`GET`** **`/`** that responds back with the provided HTML file `home.html`.
 
 <br>
 
@@ -184,7 +184,7 @@ To test the route, navigate to [`localhost:5005/`](http://localhost:5005/) in yo
 
 ### Iteration 4 | Create Blog Route
 
-Create a route handler for `GET` `/blog` that responds back with the provided HTML file `blog.html`.
+Create a route handler for **`GET`** **`/blog`** that responds back with the provided HTML file `blog.html`.
 
 <br>
 
@@ -212,11 +212,12 @@ To test the route, navigate to [`localhost:5005/blog`](http://localhost:5005/blo
 
 ### Iteration 5 | JSON Data for Projects
 
-Create a route handler for `GET` `/api/projects` that responds back with the JSON data from the file `data/projects.json`.
-<br>The JSON data returned as the response from this route will be used in the _projects section_ to render the list of projects.
+Create a route **`GET`** **`/api/projects`** that responds back with the JSON data from the file `data/projects.json`.
+<br>The purpose of this route is to provide the JSON data for the `home.html` page, which requests and renders it in the ***My Projects*** section as a list.
+
+You will need to import the file `data/projects.json` in `app.js`.
 
 <br>
-
 
 To test the route, navigate to [`localhost:5005/api/projects`](http://localhost:5005/api/projects) in your browser. <br>If you set up the route correctly, you should see the *JSON data with projects* sent in the response.
 
@@ -239,8 +240,10 @@ To test the route, navigate to [`localhost:5005/api/projects`](http://localhost:
 <br>
 
 ### Iteration 6 | JSON Data for Articles
-Create a route handler for `GET` `/api/articles` that responds back with the JSON data from the file `data/articles.json`.
-<br>The JSON data returned as the response from this route will be used in the _blog page_ to render the articles.
+Create a route **`GET`** **`/api/articles`** that responds back with the JSON data from the file `data/articles.json`.
+<br>The purpose of this route is to provide the JSON data for the `blog.html` page, which requests it to render the articles list.
+
+You will need to import the file `data/articles.json` in `app.js`.
 
 <br>
 
@@ -265,7 +268,7 @@ To test the route, navigate to [`localhost:5005/api/articles`](http://localhost:
 <br>
 
 ### Bonus: Iteration 7 | Create a 404 Route
-Create a route handler for `GET` `*` that responds back with the provided HTML file `views/not-found.html`.
+Create a route handler for **`GET`** **`*`** that responds back with the provided HTML file `views/not-found.html`.
 
 **Note:** This route handler should be placed after all the other route handlers as a catch-all for any other routes that are not defined.
 
@@ -291,7 +294,7 @@ Create a route handler for `GET` `*` that responds back with the provided HTML f
 
 ### Bonus: Iteration 8 | Customize the Home Page
 
-Update the home page and add your personal information, including your name, photo, short bio, and links to your GitHub and LinkedIn profiles.
+Update the `home.html` page and add your personal information, including your name, photo, short bio, and links to your GitHub and LinkedIn profiles.
 Additionally, you can update the static JSON data for the projects section to include your own projects.
 
 <br>
