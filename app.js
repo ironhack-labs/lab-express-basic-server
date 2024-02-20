@@ -2,7 +2,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const projects = require("./data/projects.json");
-const articels = require("./data/articles.json");
+const articles = require("./data/articles.json");
 
 // CREATE EXPRESS APP
 const app = express();
@@ -26,7 +26,7 @@ app.get("/api/projects", (req, res) => {
 });
 
 app.get("/api/articles", (req, res) => {
-  res.json(articels);
+  res.json(articles);
 });
 
 app.use((req, res, next) => {
