@@ -2,6 +2,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const data = require("./data/projects.json");
+const articles = require("./data/articles.json");
 
 const PORT = process.env.PORT || 5005;
 
@@ -17,7 +18,6 @@ app.use(morgan("dev"));
 // ROUTES
 // Start defining your routes here:
 app.get("/", (req, res, next) => {
-  console.log(__dirname);
   res.sendFile(__dirname + "/views/home.html");
 });
 
@@ -26,8 +26,10 @@ app.get("/blog", (req, res, next) => {
 });
 
 app.get("/api/projects", (req, res, next) => {
-  console.log(req);
   res.json(data);
+});
+app.get("/api/articles", (req, res, next) => {
+  res.json(articles);
 });
 
 // START THE SERVER
