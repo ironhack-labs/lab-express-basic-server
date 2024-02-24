@@ -1,6 +1,7 @@
 // IMPORT PACKAGES
 const express = require("express");
 const morgan = require("morgan");
+const data = require("./data/projects.json");
 
 const PORT = process.env.PORT || 5005;
 
@@ -18,6 +19,15 @@ app.use(morgan("dev"));
 app.get("/", (req, res, next) => {
   console.log(__dirname);
   res.sendFile(__dirname + "/views/home.html");
+});
+
+app.get("/blog", (req, res, next) => {
+  res.sendFile(__dirname + "/views/blog.html");
+});
+
+app.get("/api/projects", (req, res, next) => {
+  console.log(req);
+  res.json(data);
 });
 
 // START THE SERVER
