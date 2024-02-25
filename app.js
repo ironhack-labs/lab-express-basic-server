@@ -31,6 +31,9 @@ app.get("/api/projects", (req, res, next) => {
 app.get("/api/articles", (req, res, next) => {
   res.json(articles);
 });
+app.get("/*", (req, res, next) => {
+  res.sendFile(__dirname + "/views/not-found.html");
+});
 
 // START THE SERVER
 app.listen(PORT, () => {
