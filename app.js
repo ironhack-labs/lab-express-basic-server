@@ -26,11 +26,11 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/views/home.html");
 });
 
-app.get("/blog", (rea, res) => {
+app.get("/blog", (req, res) => {
   res.sendFile(__dirname + "/views/blog.html");
 });
 
-app.get("/api/projects", (rea, res) => {
+app.get("/api/projects", (req, res) => {
   res.json(projects);
 });
 
@@ -38,11 +38,11 @@ app.get("/api/articles", (req, res) => {
   res.json(articles);
 });
 
-app.use((rea, res, next) => {
+app.use((req, res, next) => {
   res.status(404).sendFile(__dirname + "/views/not-found.html");
 });
 
-const port = 6000;
+const port = 5005;
 // START THE SERVER
 // Make your Express server listen on port 5005:
 app.listen(port, () => {
