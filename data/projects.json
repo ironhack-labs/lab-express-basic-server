@@ -1,19 +1,42 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
+        "title": "Huetopia",
+        "description": "Bootcamp group project. Color palettes AI generator. Full stack application built with React, JSON Server, and OpenAI API",
+        "image": "/huetopia.png",
+        "github": "https://github.com/Huetopia/Huetopia",
+        "deployed": "https://huetopia.netlify.app/",
+        "techStack": [
+            "React",
+            "JavaScript",
+            "JSON Server",
+            "Tailwind",
+            "HTML"
+        ]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
+        "title": "Mai Practice",
+        "description": "Individual project. Simple game based in the Dance Dance Revolution system, built with JavaScript, HTML, and CSS.",
+        "image": "/mai-practice.png",
+        "github": "https://github.com/feelikeadoll/geisha-ddr-oop-game",
+        "deployed": "https://feelikeadoll.github.io/geisha-ddr-oop-game/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "title": "Home Sweet Home",
+        "description": "Bootcamp group project. Apartment rental admin application built with React with a given API.",
+        "image": "/homesweethome.jpg",
+        "github": "https://github.com/feelikeadoll/react-apt-rental",
+        "deployed": "https://home-sweet-home-apt-rental.netlify.app/",
+        "techStack": [
+            "React",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "title": "Cohort Tools",
@@ -21,14 +44,12 @@
         "image": "",
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
-    {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+        "techStack": [
+            "React",
+            "Node",
+            "Express",
+            "MongoDB",
+            "Tailwind"
+        ]
     }
 ]
