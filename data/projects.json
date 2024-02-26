@@ -1,10 +1,10 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
+        "title": "Pooper Scooper",
+        "description": "A simple arcade game with buttery-smooth controls, built with vanilla JavaScript, HTML, and CSS.",
+        "image": "https://64.media.tumblr.com/fe9a6c7e65d74667297d2475dbb86a28/eaf603f59377059c-f3/s540x810/87bedc7e882cef321dd930573b61d1298eb2ca9c.pnj",
+        "github": "https://github.com/Oneirius/game-pooper-scooper",
+        "deployed": "https://oneirius.github.io/game-pooper-scooper/",
         "techStack": ["HTML", "CSS", "JavaScript"]
     },
     {
