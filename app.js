@@ -36,7 +36,7 @@ server.get("/api/articles", (request, response)=>{
     response.json(articles);
 })
 server.get("/*", (request, response)=>{
-    response.status(404).response.sendFile(__dirname + "/views/not-found");
+    response.status(404).sendFile(__dirname + "/views/not-found");
 })
 
 
