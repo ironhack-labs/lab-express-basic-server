@@ -1,0 +1,18 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1708953955113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1708953955113,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"lab-express-basic-server\",\n  \"version\": \"1.0.0\",\n  \"description\": \"<details>\\r   <summary>\\r     <h2>Learning Goals</h2>\\r   </summary>\",\n  \"main\": \"app.js\",\n  \"scripts\": {\n    \"dev\": \"nodemon app.js\"\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/emmanuelAron/lab-express-basic-server.git\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/emmanuelAron/lab-express-basic-server/issues\"\n  },\n  \"homepage\": \"https://github.com/emmanuelAron/lab-express-basic-server#readme\",\n  \"dependencies\": {\n    \"express\": \"^4.18.2\",\n    \"morgan\": \"^1.10.0\"\n  },\n  \"devDependencies\": {\n    \"nodemon\": \"^3.1.0\"\n  }\n}\n"
+        }
+    ]
+}
