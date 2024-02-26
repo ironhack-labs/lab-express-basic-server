@@ -1,11 +1,11 @@
 // IMPORT PACKAGES
 // Here you should import the required packages for your Express app: `express` and `morgan`
-const app = require("express")
+const express = require("express")
 const morgan = require("morgan")
 
 // CREATE EXPRESS APP
 // Here you should create your Express app:
-
+const app = express()
 
 
 // MIDDLEWARE
