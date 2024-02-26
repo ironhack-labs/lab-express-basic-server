@@ -20,7 +20,9 @@ app.use(morgan("dev"))
 
 // ROUTES
 // Start defining your routes here:
-
+app.get("/", (req, res, next) => {
+    res.sendFile(__dirname + "/views/home.html")
+})
 
 
 // START THE SERVER
