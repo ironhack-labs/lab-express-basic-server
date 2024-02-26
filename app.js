@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
   });
 
 app.get("/blog",(req,res) => {
-    res.sendFile(__dirname + "views/blog.html");
+    res.sendFile(__dirname + "/views/blog.html");
 
 });
 
