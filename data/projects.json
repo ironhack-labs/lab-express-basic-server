@@ -1,34 +1,53 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
+        "title": "Urban Uncover",
+        "description": "Bootcamp group project. Web interface for different tourist destinations where users can find activities and places to explore",
+        "image": "/urbanUncover.png",
+        "github": "https://github.com/Laguerre91/urban-uncover-client",
+        "deployed": "https://urbanuncover.netlify.app/",
+        "techStack": [
+            "React",
+            "Node",
+            "JSON Server",
+            "Bootstrap"
+        ]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
+        "title": "Ironhack Invaders",
+        "description": "Bootcamp group project to practice the use of Object-Oriented Programming. Recreation of the classic game Space Invaders",
+        "image": "/space-invaders.png",
+        "github": "https://github.com/Laguerre91/space-invaders",
+        "deployed": "",
+        "techStack": [
+            "Javascript",
+            "HTML",
+            "CSS"
+        ]
     },
     {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
+        "title": "Series Blog",
+        "description": "Self taught practice in the use of Angular. Personal blog where I will upload all the TV series I have watched and recommend.",
+        "image": "/series-blog.jpeg",
+        "github": "https://github.com/Laguerre91/series-blog",
+        "deployed": "",
+        "techStack": [
+            "Angular",
+            "Node",
+            "Typescript"
+        ]
+    },
     {
         "title": "Weather Dashboard",
         "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
         "image": "",
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+        "techStack": [
+            "React",
+            "Node",
+            "Express",
+            "MongoDB",
+            "Ant Design"
+        ]
     }
 ]
