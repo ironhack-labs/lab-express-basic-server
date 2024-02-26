@@ -1,34 +1,18 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
+        "title": "Snake",
+        "description": "Old school style snake game. Built using JS with a focus on OOP and DOM manipulation.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/ironhack-projects-f2422.appspot.com/o/images%2Faeb7eb60-db54-43df-849c-685a4912f06d?alt=media&token=e43b8780-0b5c-4103-8654-ed88ef4d618a",
+        "github": "https://github.com/alaslong/snake",
+        "deployed": "https://alaslong.github.io/snake",
         "techStack": ["HTML", "CSS", "JavaScript"]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
-    },
-    {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
-    {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+        "title": "Iron Legacy",
+        "description": "Web app for Ironhack students to showcase the projects they've built throughout their bootcamp.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/ironhack-projects-f2422.appspot.com/o/images%2F2e4ef5d2-0325-49fa-9f70-cad55be26091?alt=media&token=d0580c6c-7cb9-455e-8973-c65b08e33e01",
+        "github": "https://github.com/alastairandthomas/ironhack-projects",
+        "deployed": "https://ironhack-projects.netlify.app",
+        "techStack": ["HTML", "CSS", "JavaScript", "React", "Firebase"]
     }
 ]
