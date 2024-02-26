@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
   });
   
 
-  app.get ("/blog", (reg, res) => {
+  app.get ("/blog", (req, res) => {
     res.sendFile(path.join(__dirname, 'views','blog.html'));
     });
 
@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
     });
 
     const articles = require('./data/articles.json');
-    app.get("/api/articles", (reg, res) => {
+    app.get("/api/articles", (req, res) => {
         res.json(articles);
         });
         app.get('*', (req, res) => {
