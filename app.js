@@ -24,6 +24,9 @@ const app = express();
 // ROUTES
 // Start defining your routes here:
 
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/views/home.html');
+  });
 
 app.get("/blog",(req,res) => {
     res.sendFile(__dirname + "/blog.html");
