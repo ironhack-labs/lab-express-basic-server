@@ -29,12 +29,12 @@ app.get('/', (req, res) => {
   });
 
 app.get("/blog",(req,res) => {
-    res.sendFile(__dirname + "/blog.html");
+    res.sendFile(__dirname + "views/blog.html");
 
 });
 
 app.get("/api/projects",(req,res)=>{
-    res.json([projects]);
+    res.json(projects);
 });
 
 
