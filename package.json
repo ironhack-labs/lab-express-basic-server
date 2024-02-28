@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.2.0"
+  }
+}
