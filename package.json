@@ -4,5 +4,8 @@
   },
   "scripts": {
     "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.2.0"
   }
 }
