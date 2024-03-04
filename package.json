@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.18.3",
+    "morgan": "^1.10.0"
+  },
+  "name": "lab-express-basic-server",
+  "description": "<details>   <summary>     <h2>Learning Goals</h2>   </summary>",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
