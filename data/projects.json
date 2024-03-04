@@ -1,19 +1,19 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
+        "title": "Gamehype",
+        "description": "Bootamp group project. Full stack web built with React, JSON Server, API, and much more.",
         "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
+        "github": "https://github.com/fraestgue/project-modulo2",
+        "deployed": "https://game-hype.netlify.app/",
+        "techStack": ["HTML", "CSS", "JavaScript", "React", "Node", "JSON Server"]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
+        "title": "Tank Battle",
+        "description": "Bootcamp individual project. Game built with JavaScript, JSON Server, and React Testing Library",
         "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
+        "github": "https://github.com/PabloSanchezCamara/tanks-battle",
+        "deployed": "https://pablosanchezcamara.github.io/tanks-battle/",
+        "techStack": ["HTML", "CSS", "Javascript"]
     },
     {
         "title": "Cohort Tools",
