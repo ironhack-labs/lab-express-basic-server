@@ -1,34 +1,58 @@
 [
-    {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
-    },
-    {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
-    {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
-    }
+	{
+		"title": "Blackjack Game",
+		"description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
+		"image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
+		"github": "https://github.com/exampleuser/examplerepo",
+		"deployed": "http://example.com",
+		"techStack": ["HTML", "CSS", "JavaScript"]
+	},
+	{
+		"title": "Jira Clone",
+		"description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
+		"image": "",
+		"github": "https://github.com/exampleuser/examplerepo",
+		"deployed": "http://example.com",
+		"techStack": ["React", "Node", "JSON Server", "React Testing Library"]
+	},
+	{
+		"title": "Cohort Tools",
+		"description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
+		"image": "",
+		"github": "https://github.com/exampleuser/examplerepo",
+		"deployed": "http://example.com",
+		"techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
+	},
+	{
+		"title": "Weather Dashboard",
+		"description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
+		"image": "",
+		"github": "https://github.com/exampleuser/examplerepo",
+		"deployed": "http://example.com",
+		"techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+	},
+	{
+		"title": "Eventz!",
+		"description": "A platform to share and find events happening around you.",
+		"image": "/eventz.png",
+		"github": "https://github.com/adriandoonan/eventz",
+		"deployed": "http://eventz.netflify.app",
+		"techStack": ["React"]
+	},
+	{
+		"title": "Win Lose Poker",
+		"description": "A quick and dirty simulator for texas holdem poker where you can play against a few bots and win or lose fake money.",
+		"image": "/poker.png",
+		"github": "https://github.com/adriandoonan/win-lose-poker",
+		"deployed": "https://adriandoonan.github.io/win-lose-poker/",
+		"techStack": ["HTML", "JavaScript", "CSS", "Parcel"]
+	},
+	{
+		"title": "Kanban Board",
+		"description": "A kanban board made as a mini project at Ironhack.",
+		"image": "/kanban.png",
+		"github": "https://github.com/adriandoonan/ironhack-lab-react-mini-project-kanban",
+		"deployed": "https://adriandoonan.github.io/ironhack-lab-react-mini-project-kanban/",
+		"techStack": ["React"]
+	}
 ]
