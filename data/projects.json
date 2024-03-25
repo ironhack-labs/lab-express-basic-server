@@ -1,34 +1,26 @@
 [
-    {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
-    },
-    {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
-    {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
-    }
+  {
+    "title": "Farm Adventures",
+    "description": "First game that I coded for IronHack module graduation. It uses JavaScript, HTML & CSS",
+    "image": "https://placehold.co/800?text=Farm+Adventures&font=playfair-display",
+    "github": "https://github.com/MimiBsn/farm-adventures",
+    "deployed": "https://mimibsn.github.io/farm-adventures/",
+    "techStack": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": "Kwik e-Mart",
+    "description": "Group project, first time we had to work with an API as a .json file using REACT + VITE",
+    "image": "https://placehold.co/800?text=Kwik+e-Mart&font=playfair-display",
+    "github": "https://github.com/MimiBsn/mini-e-commerce-admin",
+    "deployed": "",
+    "techStack": ["React", "JSON File", "CSS"]
+  },
+  {
+    "title": "Furry Friends Finder",
+    "description": "Group project for module 02 validation. We used a fake API and had to make request to grab informations, using REACT + VITE, AXIOS",
+    "image": "https://placehold.co/800?text=Furry+Friends+Finder&font=playfair-display",
+    "github": "https://github.com/MimiBsn/adopt-pet",
+    "deployed": "https://furryfriendsfinder.netlify.app/",
+    "techStack": ["React", "Axios", "Fake API", "CSS"]
+  }
 ]
