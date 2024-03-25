@@ -1,34 +1,26 @@
 [
-    {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
-    },
-    {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
-    {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
-    }
+  {
+    "title": "Dune Raider",
+    "description": "Dune Raider is a scrolling platform shooter.",
+    "image": "https://github.com/Memoryman2022/Dune-Raider/raw/main/images/title.png",
+    "github": "https://github.com/Memoryman2022/Dune-Raider",
+    "deployed": "https://memoryman2022.github.io/Dune-Raider/",
+    "techStack": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": "La Buena Comida",
+    "description": "In the heart of every dish lies a story",
+    "image": "https://github.com/Memoryman2022/ProjectReact/blob/main/images/main.png?raw=true",
+    "github": "https://github.com/Memoryman2022/ProjectReact",
+    "deployed": "http://example.com",
+    "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
+  },
+  {
+    "title": "FOCUS.com",
+    "description": "Whether you're a cinephile or someone looking for a great movie night option, FOCUS is your go-to platform for recommendations that resonate with your personal taste.",
+    "image": "https://github.com/Memoryman2022/Project-2/raw/main/src/assets/FocusLogo_icon.png",
+    "github": "https://github.com/Memoryman2022/Project-2",
+    "deployed": "https://focus-frontend.netlify.app",
+    "techStack": ["React", "Node"]
+  }
 ]
