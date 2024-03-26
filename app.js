@@ -45,7 +45,7 @@ app.get("/api/articles", (request, response) => {
 });
 
 app.get("*", (request, response) => {
-    response.status(404).sendFile(__dirname + "views/not-found.html");
+    response.status(404).sendFile(__dirname + "/views/not-found.html");
 });
 
 
@@ -53,4 +53,4 @@ app.get("*", (request, response) => {
 // Make your Express server listen on port 5005:
 app.listen(PORT, () => {
     console.log("Port currently listening");
-})
+});
