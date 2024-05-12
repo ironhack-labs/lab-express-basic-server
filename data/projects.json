@@ -5,7 +5,11 @@
         "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
     },
     {
         "title": "Jira Clone",
@@ -13,7 +17,12 @@
         "image": "",
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
+        "techStack": [
+            "React",
+            "Node",
+            "JSON Server",
+            "React Testing Library"
+        ]
     },
     {
         "title": "Cohort Tools",
@@ -21,14 +30,26 @@
         "image": "",
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
+        "techStack": [
+            "React",
+            "Node",
+            "Express",
+            "MongoDB",
+            "Tailwind"
+        ]
+    },
     {
         "title": "Weather Dashboard",
         "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
         "image": "",
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+        "techStack": [
+            "React",
+            "Node",
+            "Express",
+            "MongoDB",
+            "Ant Design"
+        ]
     }
 ]
