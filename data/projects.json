@@ -30,5 +30,21 @@
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
         "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+    },
+    {
+        "title": "Guria's Bakery",
+        "description": "A small game where you play as Guria, a siamese cat, and have to catch all the ingredients in order to win the game.",
+        "image": "",
+        "github": "https://github.com/Dani-A-Dias/gurias-bakery",
+        "deployed": "https://dani-a-dias.github.io/gurias-bakery/",
+        "techStack": ["OOP", "DOM"]
+    },
+    {
+        "title": "Let Me Sing About It",
+        "description": "A fun application where you can find multiple songs for a cool karaoke night with friends, family or even foe!",
+        "image": "https://let-me-sing-about-it.netlify.app/assets/logo-CLhw2Na0.png",
+        "github": "https://github.com/zeinamershed/let-me-sing-about-it",
+        "deployed": "https://let-me-sing-about-it.netlify.app/",
+        "techStack": ["React", "Node", "JSON:API"]
     }
 ]
