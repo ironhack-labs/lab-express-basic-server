@@ -30,5 +30,21 @@
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
         "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+    },
+    {
+        "title": "WebDev Survivor",
+        "description": "A game where the WebDev must catch coffee and avoid bugs to stay alive",
+        "image": "",
+        "github": "https://github.com/Jakob-Bodendieck/ironhack-module-1-project",
+        "deployed": "https://jakob-bodendieck.github.io/ironhack-module-1-project/",
+        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+    },
+    {
+        "title": "OpenStories",
+        "description": "An application where you can search for books and add them to your favourite books list",
+        "image": "",
+        "github": "https://github.com/filipedias2000/ironhack-module2-project",
+        "deployed": "https://thriving-cannoli-e54223.netlify.apphttps://thriving-cannoli-e54223.netlify.app",
+        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
     }
 ]
