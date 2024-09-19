@@ -1,34 +1,26 @@
 [
-    {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
-    },
-    {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
-    {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
-    }
+  {
+    "title": "Revma",
+    "description": "Electricity, current or stream in JS, HTML & CSS",
+    "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
+    "github": "https://github.com/leeburton01/project1",
+    "deployed": "http://example.com",
+    "techStack": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": "Shivers",
+    "description": "Horror films in F Major",
+    "image": "",
+    "github": "https://github.com/leeburton01/shivers_frontend",
+    "deployed": "shivers.netlify.app",
+    "techStack": ["React", "Node"]
+  },
+  {
+    "title": "New Kids on Acid",
+    "description": "Coming soon...",
+    "image": "",
+    "github": "",
+    "deployed": "",
+    "techStack": ["Quantum Physics", "Mild Astrology"]
+  }
 ]
