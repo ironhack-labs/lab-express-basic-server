@@ -1,34 +1,18 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
+        "title": "Ironflix",
+        "description": "A movie manager web app built with React.",
+        "image": "https://i.ibb.co/JFqNKVx/Screenshot-2023-11-20-at-14-09-54.png",
+        "github": "https://github.com/FaresQ29/ironflix",
+        "deployed": "https://effervescent-hummingbird-7229af.netlify.app/",
+        "techStack": ["HTML", "CSS", "JavaScript", "React"]
+    },
+    {
+        "title": "Alien Blaster",
+        "description": "Blast some aliens with Alien Blaster",
+        "image": "https://i.ibb.co/6mXWd9T/Screenshot-2023-11-20-at-14-15-15.png",
+        "github": "https://github.com/daanrxz/laser-alien-blaster",
+        "deployed": "https://daanrxz.github.io/laser-alien-blaster",
         "techStack": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
-    },
-    {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
-    {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
     }
 ]
