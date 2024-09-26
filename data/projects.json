@@ -1,10 +1,10 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
+        "title": "Earth Savior",
+        "description": "First Person Shooter space game that gives you the challenge of protecting the earth from an attat of meteorites",
+        "image": "../public/earth savior.png",
+        "github": "https://github.com/glowinZero/game-project",
+        "deployed": "https://glowinzero.github.io/game-project/",
         "techStack": ["HTML", "CSS", "JavaScript"]
     },
     {
