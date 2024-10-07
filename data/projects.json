@@ -1,10 +1,10 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
+        "title": "Catch the snitch!",
+        "description": "Simple game, built with vanilla JavaScript, HTML, and CSS.",
+        "image": "https://camo.githubusercontent.com/c4fc80989b1b431a543f4f28bd1c97ee178e9da9e7965af02e337ee50551006d/68747470733a2f2f646965676f6c64632e6769746875622e696f2f63617463682d7468652d736e697463682f696d616765732f6c6f676f2e706e67",
+        "github": "https://github.com/diegoldc/catch-the-snitch?tab=readme-ov-file",
+        "deployed": "https://diegoldc.github.io/catch-the-snitch/",
         "techStack": ["HTML", "CSS", "JavaScript"]
     },
     {
