@@ -76,3 +76,8 @@ button.bg-blue-500:hover {
 #errorContainer {
     min-height: 100vh;
 }
+
+p{
+    display: block;
+    width: 100vw;
+}
