@@ -1,32 +1,32 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
+        "title": "Comarca",
+        "description": "Oeste de la Tierra Media, delimitada por el río Brandywine al este y el río Sarn al norte. Está rodeada de colinas y bosques, lo que le proporciona un ambiente pintoresco y protegido.",
+        "image": "https://fotografias.larazon.es/clipping/cmsimages02/2019/08/09/6FFA6D7E-332F-4AD3-9D80-BEA306D1C18E/98.jpg?crop=800,450,x0,y5&width=1900&height=1069&optimize=low&format=webply",
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
         "techStack": ["HTML", "CSS", "JavaScript"]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
+        "title": "Rivendel",
+        "description": "Montañas Nubladas, en un valle oculto que es difícil de encontrar para aquellos que no conocen su existencia. Se encuentra cerca del río Bruinen, lo que le proporciona un entorno natural impresionante.",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb41hqLVVj4bH0opP3KAXN0qH9EPeQHz717PRt_MWfz9m8-t9zY_9_npfEKL89ZFa-DwSs1uOf7yx8Xc_vuKsa9rh-0vrjHkwWcbioQVoxWW8rBVf-9SIjWASj4LcErdJ3iWFsqHU_em4/s1600/rivendell-poco-a-mi-casa-en-rivendel-ya-era-hora-de-salir-la-comarca-373233.jpg",
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
         "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
     },
     {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
+        "title": "Moria",
+        "description": "Montañas Nubladas, en el corazón de la Tierra Media. Es un vasto sistema de túneles y minas que se extiende profundamente bajo la montaña.",
+        "image": "https://s1.dmcdn.net/v/TGsSe1XIBdRhNfyFI/x720",
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
         "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
     },    
     {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
+        "title": "Mordor",
+        "description": "Sureste de la Tierra Media, limitado por las Montañas Nubladas al norte y la Cadena de las Montañas de las Sombras al este. Sus fronteras están marcadas por el río Anduin al oeste y el mar de Rhûn al este.",
+        "image": "https://sm.ign.com/ign_es/screenshot/default/mordor_urrt.jpg",
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
         "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]

@@ -1,34 +1,34 @@
 [
   {
-    "title": "The best article ever",
+    "title": "La Sabiduría de Gandalf",
     "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    "author": "Jane Doe",
-    "publishedAt": "2022-01-08",
-    "tags": ["react", "node", "testing", "react testing library"],
+    "author": "J.R.R. Tolkien",
+    "publishedAt": "2021-12-01",
+    "tags": ["fantasía", "sabiduría", "gandalf"],
     "views": 16
   },
   {
-    "title": "The second best article ever",
+    "title": "La Caída de Gondor",
     "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    "author": "Jane Doe",
-    "publishedAt": "2022-03-24",
-    "tags": ["javascript", "node", "express"],
+    "author": "J.R.R. Tolkien",
+    "publishedAt": "2021-11-15",
+    "tags": ["gondor", "batalla", "epicidad"],
     "views": 234
   },
   {
-    "title": "The third best article ever",
+    "title": "Los Secretos de Rivendel",
     "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    "author": "Jane Doe",
-    "publishedAt": "2022-05-14",
-    "tags": ["javascript", "css", "tailwind"],
+    "author": "J.R.R. Tolkien",
+    "publishedAt": "2022-05-05",
+    "tags": ["rivendel", "elfos", "magia"],
     "views": 345
   },
   {
-    "title":"The fourth best article ever",
+    "title": "Moria: La Tierra de los Enanos",
     "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    "author": "Jane Doe",
-    "publishedAt": "2023-02-02",
-    "tags": ["javascript", "css", "testing", "jasmine"],
+    "author": "J.R.R. Tolkien",
+    "publishedAt": "2023-02-20",
+    "tags": ["moria", "enanos", "tierra media"],
     "views": 128
   }
 ]
