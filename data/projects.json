@@ -1,34 +1,31 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
+        "title": "WarKingdoms",
+        "description": "Unity RTS Prototype (Warcraft 3 Style)",
+        "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/4d2c5150-69eb-412a-894a-617ebefdb973-profile_banner-480.jpeg",
+        "github": "https://github.com/skyteks/WarKingdoms",
+        "techStack": ["Unity", "C#"]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
+        "title": "Destructo",
+        "description": "A small 2D c++ engine with several renderers to switch between, while running.",
         "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
+        "github": "https://github.com/skyteks/Destructo",
+        "techStack": ["C++", "OpenGL", "DirectX", "Direct3D"]
     },
     {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
+        "title": "Javascript-Web-Game",
+        "description": "This is a small JavaScript Web-Development Course Project for IRONHACK. It entails a collection of simple copies of small but well known little games, each as their own level.",
         "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
+        "github": "https://github.com/skyteks/javascript-web-game",
+        "deployed": "https://skyteks.github.io/javascript-web-game/",
+        "techStack": ["JavaScript", "HTML", "CSS"]
     },    
     {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
+        "title": "React-Kanban-Board",
+        "description": "This is a little kanban-board web-app made with React.js, to be used for planning.",
         "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+        "github": "https://github.com/skyteks/react-kanban-board",
+        "techStack": ["React", "JavaScript", "HTML", "CSS"]
     }
 ]
