@@ -74,5 +74,5 @@ button.bg-blue-500:hover {
 #projectsContainer,
 #articlesContainer,
 #errorContainer {
-    min-height: 100vh;
+    min-height: 50vh;
 }
