@@ -1,0 +1,25 @@
+{
+  "name": "lab-express-basic-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DieSILV/lab-express-basic-server.git"
+  },
+  "author": "Diego Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DieSILV/lab-express-basic-server/issues"
+  },
+  "homepage": "https://github.com/DieSILV/lab-express-basic-server#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  }
+}
