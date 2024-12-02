@@ -49,6 +49,7 @@ app.get('/api/projects', (req, res) => {
 	// fs.readFileSync(path.join(__dirname, '/data/projects.json'), 'utf-8')
 	// );
 
+	res.set('Cache-Control', 'no-cache');
 	res.status(200).json(projects);
 });
 
@@ -59,6 +60,7 @@ app.get('/api/articles', (req, res) => {
 	// 	fs.readFileSync(path.join(__dirname, '/data/articles.json'), 'utf-8')
 	// );
 
+	res.set('Cache-Control', 'no-cache');
 	res.status(200).json(articles);
 });
 
