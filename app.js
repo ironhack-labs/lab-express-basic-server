@@ -1,8 +1,21 @@
 // IMPORT PACKAGES
 // Here you should import the required packages for your Express app: `express` and `morgan`
-const express = require('express');
-const morgan = require('morgan');
-const path = require('path');
+// const express = require('express');
+// const morgan = require('morgan');
+// const path = require('path');
+
+import express from 'express';
+import morgan from 'morgan';
+
+import { fileURLToPath } from 'url';
+import path, { dirname } from 'path';
+import fs from 'fs';
+
+import articles from './data/articles.json' assert { type: 'json' };
+import projects from './data/projects.json' assert { type: 'json' };
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const PORT = 5005;
 
@@ -30,12 +43,22 @@ app.get('/blog', (req, res) => {
 });
 
 app.get('/api/projects', (req, res) => {
-	const projects = require('./data/projects.json');
+	// const projects = require('./data/projects.json');
+
+	// const projects = JSON.parse(
+	// fs.readFileSync(path.join(__dirname, '/data/projects.json'), 'utf-8')
+	// );
+
 	res.status(200).json(projects);
 });
 
 app.get('/api/articles', (req, res) => {
-	const articles = require('./data/articles.json');
+	// const articles = require('./data/articles.json');
+
+	// const articles = JSON.parse(
+	// 	fs.readFileSync(path.join(__dirname, '/data/articles.json'), 'utf-8')
+	// );
+
 	res.status(200).json(articles);
 });
 

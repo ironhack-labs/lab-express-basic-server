@@ -2,6 +2,7 @@
 	"name": "lab-express-basic-server",
 	"version": "1.0.0",
 	"description": "<details>\r   <summary>\r     <h2>Learning Goals</h2>\r   </summary>",
+	"type": "module",
 	"main": "app.js",
 	"scripts": {
 		"dev": "nodemon app.js"
