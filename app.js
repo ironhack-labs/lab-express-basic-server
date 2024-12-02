@@ -2,6 +2,8 @@
 // Here you should import the required packages for your Express app: `express` and `morgan`
 const express = require('express');
 const morgan = require('morgan');
+const path = require('path');
+
 const PORT = 5005;
 
 // CREATE EXPRESS APP
@@ -19,6 +21,9 @@ app.use(morgan('dev'));
 
 // ROUTES
 // Start defining your routes here:
+app.get('/', (req, res) => {
+	res.sendFile(path.join(__dirname, './views/home.html'));
+});
 
 // START THE SERVER
 // Make your Express server listen on port 5005:
