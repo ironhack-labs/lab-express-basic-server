@@ -1,34 +1,25 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
+        "title": "Space Wars",
+        "description": "In Browser game made using OOP and classes in JavaScript.",
+        "image": "https://res.cloudinary.com/diy45ayev/image/upload/v1733145390/Colony-Wars-12-02-2024_02_13_PM_tavqvh.png",
+        "github": "https://github.com/last-orbit/Space-Wars",
+        "deployed": "https://last-orbit.github.io/Space-Wars/",
+        "techStack": ["HTML", "CSS", " Vanilla JavaScript"]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
+        "title": "HomeMate",
+        "description": "Make a CRUD app for a single user",
+        "image": "https://res.cloudinary.com/diy45ayev/image/upload/v1733145858/HomeMate-12-02-2024_02_21_PM_ip0j9d.png",
+        "github": "https://github.com/last-orbit/Mini-Project-2",
+        "techStack": ["React", "Node", "JSON Server"]
     },
     {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
+        "title": "PetPals",
+        "description": "Create a CRUD app integrating a mock backend or external API",
         "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
+        "github": "https://github.com/last-orbit/Project-2",
         "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
-    {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+        "techStack": ["React", "Node", "JSON Server"]
     }
 ]
