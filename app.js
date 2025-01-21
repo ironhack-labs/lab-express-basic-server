@@ -1,25 +1,49 @@
-// IMPORT PACKAGES
-// Here you should import the required packages for your Express app: `express` and `morgan`
+// Importar Paquetes
+const express = require('express');
+const morgan = require('morgan');
+const fs = require('fs'); // Importar el módulo fs para leer archivos
 
+// Crear Aplicación Express
+const app = express();
 
+// Configuración de Middleware
+app.use(express.static('public'));
+app.use(express.json());
+app.use(morgan('dev'));
 
-// CREATE EXPRESS APP
-// Here you should create your Express app:
+// Rutas
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/views/home.html');
+});
 
+app.get('/blog', (req, res) => {
+    res.sendFile(__dirname + '/views/blog.html');
+});
 
+// Nuevo Controlador para /api/projects
+app.get('/api/projects', (req, res) => {
+    const projectsData = fs.readFileSync('./data/projects.json', 'utf-8'); // Leer el archivo JSON
+    const projects = JSON.parse(projectsData); // Parsear el contenido a objeto
+    res.json(projects); // Enviar el contenido del archivo como respuesta JSON
+});
 
-// MIDDLEWARE
-// Here you should set up the required middleware:
-// - `express.static()` to serve static files from the `public` folder
-// - `express.json()` to parse incoming requests with JSON payloads
-// - `morgan` logger to log all incoming requests
+// Nuevo Controlador para /api/articles
+app.get('/api/articles', (req, res) => {
+    fs.readFile('data/articles.json', 'utf8', (err, data) => {
+        if (err) {
+            return res.status(500).json({ error: 'Error al leer el archivo' });
+        }
+        res.json(JSON.parse(data)); // Enviar los datos JSON como respuesta
+    });
+});
 
+// Controlador para Rutas No Definidas (Error 404)
+app.use((req, res, next) => {
+    res.status(404).sendFile(__dirname + '/views/not-found.html');
+});
 
-
-// ROUTES
-// Start defining your routes here:
-
-
-
-// START THE SERVER
-// Make your Express server listen on port 5005:
+// Iniciar el Servidor
+const PORT = 5005;
+app.listen(PORT, () => {
+    console.log(`El servidor está corriendo en http://localhost:${PORT}`);
+});

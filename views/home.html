@@ -101,12 +101,8 @@
               const projectCard = `
                   <div class="bg-white shadow-md rounded p-6 flex flex-col justify-between">
                       <div>
-                          <h3 class="text-xl font-bold mb-4">${
-                            project.title
-                          }</h3>
-                          <div class="w-full h-56 animate-pulse rounded mb-4 image-loader gradient-iron" data-image="${
-                            project.image
-                          }"></div>
+                          <h3 class="text-xl font-bold mb-4">${project.title}</h3>
+                          <div class="w-full h-56 animate-pulse rounded mb-4 image-loader gradient-iron" data-image="${project.image}"></div>
                           <p>${project.description}</p>
                           <ul class="mt-2 mb-4">
                               ${project.techStack
@@ -118,12 +114,8 @@
                           </ul>
                       </div>
                       <div class="mt-4 flex justify-between">
-                          <a href="${
-                            project.github
-                          }" class="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Github</a>
-                          <a href="${
-                            project.deployed
-                          }" class="text-green-500 hover:underline" target="_blank" rel="noopener noreferrer">Live Version</a>
+                          <a href="${project.github}" class="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Github</a>
+                          <a href="${project.deployed}" class="text-green-500 hover:underline" target="_blank" rel="noopener noreferrer">Live Version</a>
                       </div>
                   </div>
                   `;
