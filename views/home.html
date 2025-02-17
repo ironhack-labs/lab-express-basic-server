@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to My Portfolio!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow text-white gradient-iron">
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+          <div class="text-xl font-bold">My Portfolio</div>
+          <ul class="flex space-x-4">
+            <li>
+              <a href="/blog" class="hover:text-blue-500">Blog</a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/timothy-c-williams/"
+                class="hover:text-blue-500"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/tim-lab84" class="hover:text-blue-500"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container mx-auto mt-20 px-12 md:px-6">
+      <!-- Profile Image & About Me -->
+      <section class="flex flex-wrap -mx-4">
+        <div class="mt-10 flex flex-col md:flex-row items-center">
+          <img
+            src="/profile.jpg"
+            alt="Timothy Williams"
+            class="rounded-full w-48 h-48 md:mr-8"
+          />
+          <div>
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <p class="text-gray-600">
+              Hi, I'm Timothy Williams! I'm a passionate developer specializing
+              in full-stack web development and machine learning. I enjoy
+              solving complex problems and creating intuitive and user-friendly
+              web applications. I'm always eager to learn new technologies and
+              improve my skills. Check out my projects below!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Projects Section -->
+      <section class="mt-10">
+        <h2 class="text-2xl font-bold">My Projects</h2>
+        <div
+          id="projectsContainer"
+          class="mt-4 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <!-- LOAD PROJECTS IN HERE , we dont do it here -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="gradient-footer bg-gray-800 text-white py-4 mt-10">
+      <div class="container mx-auto text-center">
+        <p class="text-xl font-medium">LAB | Express Basic Server</p>
+        <p class="mt-2 opacity-70 text-sm">© 2023 Ironhack</p>
+      </div>
+    </footer>
+  </body>
+</html>
