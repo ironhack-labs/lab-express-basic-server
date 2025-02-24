@@ -1,34 +1,26 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
+        "title": "KiMovie",
+        "description": "Este proyecto es una aplicación web y móvil de una Single Page Application (SPA) desarrollada con React, JavaScript, Material UI y JSON Server. Permite gestionar una lista de películas con funcionalidades como agregar a favoritos, marcar como vistas o por ver, y una sección exclusiva para administradores.",
+        "image": "project1.png",
+        "github": "https://github.com/Kilianhc/React-Project",
+        "deployed": "https://prismatic-seahorse-b6fcae.netlify.app/",
+        "techStack": ["React", "JSON Server", "JavaScript", "Material UI"]
+    },
+    {
+        "title": "This is Football!!",
+        "description": "Un proyecto donde experimento con mecánicas, gráficos y lógica en JavaScript. Este proyecto me ha permitido profundizar en la programación orientada a objetos y el manejo de eventos en juegos interactivos.",
+        "image": "",
+        "github": "https://github.com/Kilianhc/project-1-The-Game",
+        "deployed": "https://kilianhc.github.io/project-1-The-Game/",
         "techStack": ["HTML", "CSS", "JavaScript"]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
+        "title": "To Travel List",
+        "description": "To Travel List App es una aplicación creada con React que permite gestionar y organizar viajes. Los usuarios pueden agregar, editar, eliminar y visualizar detalles de sus viajes de manera sencilla.",
         "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
-    },
-    {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
-    {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+        "github": "https://github.com/Kilianhc/MiniProject-React",
+        "deployed": "",
+        "techStack": ["React", "CSS", "JavaSCript"]
     }
 ]
