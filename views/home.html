@@ -15,21 +15,9 @@
         <div class="flex justify-between items-center py-4">
           <div class="text-xl font-bold">My Portfolio</div>
           <ul class="flex space-x-4">
-            <li>
-              <a href="/blog" class="hover:text-blue-500">Blog</a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/school/ironhack"
-                class="hover:text-blue-500"
-                >LinkedIn</a
-              >
-            </li>
-            <li>
-              <a href="https://github.com" class="hover:text-blue-500"
-                >GitHub</a
-              >
-            </li>
+            <li><a href="/blog" class="hover:text-blue-500">Blog</a></li>
+            <li><a href="https://www.linkedin.com/feed/" class="hover:text-blue-500">LinkedIn</a></li>
+            <li><a href="https://github.com/MrsLondon" class="hover:text-blue-500">GitHub</a></li>
           </ul>
         </div>
       </div>
@@ -39,30 +27,25 @@
       <!-- Profile Image & About Me -->
       <section class="flex flex-wrap -mx-4">
         <div class="mt-10 flex flex-col md:flex-row items-center">
+          
           <img
-            src="/profile.png"
-            alt="Your Name"
+            src="/ayat.jpeg" 
+            alt="Ayat"
             class="rounded-full w-48 h-48 md:mr-8"
           />
           <div>
             <h2 class="text-2xl font-bold mb-4">About Me</h2>
             <p class="text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              lacinia odio vitae vestibulum. Donec in efficitur leo. Vestibulum
-              nec magna ac dui tempus vestibulum. Curabitur facilisis, nulla vel
-              venenatis auctor, leo magna sodales felis, quis malesuada nibh
-              odio ut velit. Proin pharetra luctus enim, sit amet cursus quam
-              semper a. Mauris eu ante vitae eros faucibus aliquam. Sed ornare
-              gravida arcu, id placerat risus lacinia at. Integer accumsan
-              ligula ante, non feugiat neque ullamcorper vel. Nullam a erat nec
-              nisl condimentum fermentum at sed massa. Fusce non risus eu arcu
-              placerat porttitor. Mauris fermentum velit vel congue luctus. Sed
-              cursus orci at porta ornare. Donec sit amet aliquet tellus, a
-              ornare justo. Donec tempus tincidunt leo id tincidunt.
+              Hi, I'm Ayat! I'm a developer with a passion for coding and problem-solving. I'm currently learning React and exploring new web technologies. In my free time, I love baking and spending time with my family. Feel free to check out my projects and connect with me on LinkedIn or GitHub!
             </p>
+            <ul class="flex space-x-4">
+              <li><a href="https://www.linkedin.com/feed/" class="hover:text-blue-500">LinkedIn</a></li>
+              <li><a href="https://github.com/MrsLondon" class="hover:text-blue-500">GitHub</a></li>
+            </ul>
           </div>
         </div>
       </section>
+
 
       <!-- My Projects Section -->
       <section class="mt-10">
@@ -71,7 +54,7 @@
           id="projectsContainer"
           class="mt-4 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
         >
-          <!-- Projects are loaded here using JavaScript -->
+          <!-- Projects will be loaded here using JavaScript -->
         </div>
       </section>
     </main>
@@ -94,19 +77,14 @@
             return response.json();
           })
           .then((projects) => {
-            const projectsContainer =
-              document.getElementById("projectsContainer");
+            const projectsContainer = document.getElementById("projectsContainer");
 
             projects.forEach((project) => {
               const projectCard = `
                   <div class="bg-white shadow-md rounded p-6 flex flex-col justify-between">
                       <div>
-                          <h3 class="text-xl font-bold mb-4">${
-                            project.title
-                          }</h3>
-                          <div class="w-full h-56 animate-pulse rounded mb-4 image-loader gradient-iron" data-image="${
-                            project.image
-                          }"></div>
+                          <h3 class="text-xl font-bold mb-4">${project.title}</h3>
+                          <div class="w-full h-56 animate-pulse rounded mb-4 image-loader gradient-iron" data-image="${project.image}"></div>
                           <p>${project.description}</p>
                           <ul class="mt-2 mb-4">
                               ${project.techStack
@@ -118,15 +96,11 @@
                           </ul>
                       </div>
                       <div class="mt-4 flex justify-between">
-                          <a href="${
-                            project.github
-                          }" class="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Github</a>
-                          <a href="${
-                            project.deployed
-                          }" class="text-green-500 hover:underline" target="_blank" rel="noopener noreferrer">Live Version</a>
+                          <a href="${project.github}" class="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Github</a>
+                          <a href="${project.deployed}" class="text-green-500 hover:underline" target="_blank" rel="noopener noreferrer">Live Version</a>
                       </div>
                   </div>
-                  `;
+              `;
               projectsContainer.innerHTML += projectCard;
             });
 
@@ -142,8 +116,7 @@
           })
           .catch((error) => {
             console.error("Failed to load projects:", error);
-            const projectsContainer =
-              document.getElementById("projectsContainer");
+            const projectsContainer = document.getElementById("projectsContainer");
             projectsContainer.innerHTML = `
                   <div class="text-center py-4 lg:px-4">
                       <div class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
