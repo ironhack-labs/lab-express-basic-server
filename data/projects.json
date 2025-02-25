@@ -1,34 +1,34 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
+        "title": "Tauschme",
+        "description": "A collaborative platform where users can exchange apartments.",
+        "image": "",
+        "github": "https://github.com/MrsLondon/Tauschme",
         "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
+        "techStack": ["Ruby", "Ruby on Rails", "SQL", "CSS", "HTML"]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
+        "title": "HiveBoard",
+        "description": "HiveBoard is a collaborative task management app that combines the teamwork and productivity of a hive with the visual organization of a Kanban board. 🐝",
         "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
+        "github": "https://github.com/MrsLondon/HiveBoard",
         "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
+        "techStack": ["React", "Node", "ExpressJS", "MongoDB", "Tailwind"]
     },
     {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
+        "title": "ScreamGame",
+        "description": "A thrilling game where you escape from the killer by using shields and weapons.",
         "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
+        "github": "https://github.com/MrsLondon/ScreamGame",
         "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
+        "techStack": ["JavaScript", "HTML", "CSS"]
+    },
     {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
+        "title": "FloralBouquet",
+        "description": "An online store for buying and arranging beautiful bouquets.",
         "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
+        "github": "https://github.com/MrsLondon/FloralBouquet",
         "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+        "techStack": ["React", "Node", "ExpressJS", "MongoDB", "Tailwind"]
     }
 ]
