@@ -1,25 +1,43 @@
 // IMPORT PACKAGES
-// Here you should import the required packages for your Express app: `express` and `morgan`
-
-
+const express = require('express');
+const morgan = require('morgan');
+const path = require('path'); // Import the 'path' module to handle file paths
 
 // CREATE EXPRESS APP
-// Here you should create your Express app:
-
-
+const app = express();
 
 // MIDDLEWARE
-// Here you should set up the required middleware:
-// - `express.static()` to serve static files from the `public` folder
-// - `express.json()` to parse incoming requests with JSON payloads
-// - `morgan` logger to log all incoming requests
+app.use(express.static('public')); // Serve static files from the 'public' folder
+app.use(express.json()); // Parse incoming requests with JSON payloads
+app.use(morgan('dev')); // Log all incoming requests using the 'dev' format
 
-
+// IMPORT JSON DATA
+const projects = require('./data/projects.json'); // Import projects data
+const articles = require('./data/articles.json'); // Import articles data
 
 // ROUTES
-// Start defining your routes here:
+// Route handler for GET /
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'home.html'));
+});
 
+// Route handler for GET /blog
+app.get('/blog', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'blog.html'));
+});
 
+// Route handler for GET /api/projects
+app.get('/api/projects', (req, res) => {
+  res.json(projects); // Respond with the projects JSON data
+});
+
+// Route handler for GET /api/articles
+app.get('/api/articles', (req, res) => {
+  res.json(articles); // Respond with the articles JSON data
+});
 
 // START THE SERVER
-// Make your Express server listen on port 5005:
+const PORT = 5005;
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
