@@ -1,34 +1,34 @@
 [
   {
-    "title": "The best article ever",
-    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    "author": "Jane Doe",
-    "publishedAt": "2022-01-08",
-    "tags": ["react", "node", "testing", "react testing library"],
+    "title": "Module 1: Javascript",
+    "body": "In Module 1 we revised and solidified key Javascript concepts and did various labs in Javascript, HTML and CSS",
+    "author": "Trix Mostert",
+    "publishedAt": "2025-02-18",
+    "tags": ["javascript", "objects", "arrays", "react testing library", "jasmine"],
     "views": 16
   },
   {
-    "title": "The second best article ever",
-    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    "author": "Jane Doe",
-    "publishedAt": "2022-03-24",
-    "tags": ["javascript", "node", "express"],
+    "title": "Module 2: REACT, Node, APIs",
+    "body": "In Module 2 we dived deep into the world of REACT with REST and did various labs for e-Commerce, SPAs and group projects",
+    "author": "Trix Mostert",
+    "publishedAt": "2025-02-18",
+    "tags": ["javascript", "node", "REST"],
     "views": 234
   },
   {
-    "title": "The third best article ever",
-    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    "author": "Jane Doe",
-    "publishedAt": "2022-05-14",
-    "tags": ["javascript", "css", "tailwind"],
+    "title": "In Module 3 we added the backend: express and MongoDB",
+    "body": "Express is a technology that allows you to build your own server. MongoDb is an open source DB",
+    "author": "Trix Mostert",
+    "publishedAt": "2025-02-18",
+    "tags": ["express", "MongoDB", "Node"],
     "views": 345
   },
   {
-    "title":"The fourth best article ever",
-    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-    "author": "Jane Doe",
-    "publishedAt": "2023-02-02",
-    "tags": ["javascript", "css", "testing", "jasmine"],
+    "title":"Finding a job in IT in the EU in 2025",
+    "body": "After the world emerged from COVID, we have to face various challenges in the European job market",
+    "author": "Trix Mostert",
+    "publishedAt": "2025-02-18",
+    "tags": ["interviews", "softskills", "jobs", "fullstack", "software"],
     "views": 128
   }
 ]
