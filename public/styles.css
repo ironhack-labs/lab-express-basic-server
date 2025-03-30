@@ -1,15 +1,14 @@
 :root {
-    --primary-color: #3a0dd0; /* Electric Blue */
-    --secondary-color: #2DC5FA; /* Ocean Blue */
-    --gradient-iron: linear-gradient(45deg, rgba(56, 0, 235, 0.5), rgba(45, 197, 250, 0.5));
-    --gradient-hacker: linear-gradient(45deg, rgba(56, 0, 235, 0.5), rgba(154, 22, 240, 0.5));
+    --primary-color: #2ecc71; /* Vibrant Green */
+    --secondary-color: #0aa249e8; /* Darker Green */
+    --gradient-iron: linear-gradient(45deg, rgba(46, 204, 113, 0.5), rgba(39, 174, 96, 0.5));
+    --gradient-hacker: linear-gradient(45deg, rgba(46, 204, 113, 0.5), rgba(60, 179, 113, 0.5));
 
     --warning-color: #e74c3c;
     --text-color: #333;
     --light-text-color: #aaa;
     --bg-color: #f8f9fa;
 }
-
 
 body {
     background-color: var(--bg-color);
@@ -25,7 +24,6 @@ body {
 .primary-color:hover {
     background-color: var(--secondary-color);
 }
-
 
 /* Navbar Styles */
 nav.bg-white {
@@ -49,9 +47,8 @@ button.bg-blue-500:hover {
 
 /* Tags */
 .tag {
-    background-color: #4265E6;
+    background-color: var(--secondary-color);
 }
-
 
 /* Gradients */
 .gradient-iron {
@@ -62,8 +59,9 @@ button.bg-blue-500:hover {
     background: var(--gradient-hacker);
 }
 
+/* Puedes ajustar el footer para usar tonos verdes oscuros */
 .gradient-footer {
-    background: linear-gradient(90deg, rgba(56, 0, 235, 0.95), rgba(10, 10, 30, 0.95));
+    background: linear-gradient(90deg, rgba(46, 204, 113, 0.95), rgba(0, 40, 0, 0.95));
 }
 
 /* Error Messages */
