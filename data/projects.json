@@ -1,34 +1,42 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
+        "title": "Hire Me Landing Page",
+        "description": "Landing page to promote me and help me land a professionalization contract built with Next.js, Next UI, I18n and Emailjs",
+        "image": "./hire-me-img.png",
+        "github": "https://github.com/CannyRo/hire_mr_canny",
+        "deployed": "https://cannyro.github.io/hire_mr_canny/en",
+        "techStack": ["Next.js", "Next UI", "I18n", "Emailjs"]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
-    },
-    {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
+        "title": "Kimchi Tracker",
+        "description": "Bootcamp group project to track Kimchi recipes. Fullstack application built with React, Vite, Gemini API and REST API Json-server.",
+        "image": "./kimchi-tracker.png",
+        "github": "https://github.com/hesersu/kimchi-tracker-frontend",
+        "deployed": "https://kimchi-tracker.netlify.app/",
+        "techStack": ["React", "Vite", "Gemini API", "REST API", "Json-server"]
     },    
     {
+        "title": "Product List with Cart",
+        "description": "Product list interface with dynamique cart and a CRUD-like in the browser build with Angular 18 and Typescript.",
+        "image": "./product-list-with-cart.png",
+        "github": "https://github.com/CannyRo/FrontendMentor_ProductListWithCart_5MmqLVAp_d",
+        "deployed": "https://cannyro.github.io/FrontendMentor_ProductListWithCart_5MmqLVAp_d/dessert",
+        "techStack": ["Angular", "Typescript"]
+    },
+    {
         "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+        "description": "Weather tracking application built with Angular 17, Typescript, and OpenWeather API.",
+        "image": "./weather-dashbord-img.png",
+        "github": "https://github.com/CannyRo/angular-weather/",
+        "deployed": "https://github.com/CannyRo/angular-weather/",
+        "techStack": ["Angular", "Typescript", "OpenWeather"]
+    },
+    {
+        "title": "FAQs Section",
+        "description": "A simple FAQs section accordion built with Html (semantic) and pure CSS.",
+        "image": "./faq-section.png",
+        "github": "https://github.com/CannyRo/FrontendMentor_FaqAccordion_wyfFdeBwBz",
+        "deployed": "https://cannyro.github.io/FrontendMentor_FaqAccordion_wyfFdeBwBz/",
+        "techStack": ["HTML", "CSS"]
     }
 ]
