@@ -1,10 +1,10 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
+        "title": "I save The World",
+        "description": "RPG turn-game",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAW6WGJPv7q5GMMwZEiv2EufxMTAObwQj8Og&s",
+        "github": "https://github.com/yoshiro115/i_save_the_world",
+        "deployed": "https://yoshiro115.github.io/i_save_the_world/",
         "techStack": ["HTML", "CSS", "JavaScript"]
     },
     {
