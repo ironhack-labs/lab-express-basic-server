@@ -19,16 +19,10 @@
               <a href="/blog" class="hover:text-blue-500">Blog</a>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/school/ironhack"
-                class="hover:text-blue-500"
-                >LinkedIn</a
-              >
+              <a href="https://www.linkedin.com/in/andrekaltenbach/" class="hover:text-blue-500">LinkedIn</a>
             </li>
             <li>
-              <a href="https://github.com" class="hover:text-blue-500"
-                >GitHub</a
-              >
+              <a href="https://github.com/andrekaltenbach" class="hover:text-blue-500">GitHub</a>
             </li>
           </ul>
         </div>
@@ -39,26 +33,13 @@
       <!-- Profile Image & About Me -->
       <section class="flex flex-wrap -mx-4">
         <div class="mt-10 flex flex-col md:flex-row items-center">
-          <img
-            src="/profile.png"
-            alt="Your Name"
-            class="rounded-full w-48 h-48 md:mr-8"
-          />
+          <img src="/ironhack_slack-photo2.jpg" alt="Your Name" class="rounded-full w-48 h-48 md:mr-8" />
           <div>
             <h2 class="text-2xl font-bold mb-4">About Me</h2>
             <p class="text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              lacinia odio vitae vestibulum. Donec in efficitur leo. Vestibulum
-              nec magna ac dui tempus vestibulum. Curabitur facilisis, nulla vel
-              venenatis auctor, leo magna sodales felis, quis malesuada nibh
-              odio ut velit. Proin pharetra luctus enim, sit amet cursus quam
-              semper a. Mauris eu ante vitae eros faucibus aliquam. Sed ornare
-              gravida arcu, id placerat risus lacinia at. Integer accumsan
-              ligula ante, non feugiat neque ullamcorper vel. Nullam a erat nec
-              nisl condimentum fermentum at sed massa. Fusce non risus eu arcu
-              placerat porttitor. Mauris fermentum velit vel congue luctus. Sed
-              cursus orci at porta ornare. Donec sit amet aliquet tellus, a
-              ornare justo. Donec tempus tincidunt leo id tincidunt.
+              Hi, I'm André from Lüchow, Germany. For the past 10 years, I have worked as a Physicist/R&D Engineer, and
+              now I'm switching for a career in tech as a Full-Stack-Developer. I love music, either listening or
+              making. I play drums and guitar.
             </p>
           </div>
         </div>
@@ -67,10 +48,7 @@
       <!-- My Projects Section -->
       <section class="mt-10">
         <h2 class="text-2xl font-bold">My Projects</h2>
-        <div
-          id="projectsContainer"
-          class="mt-4 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
-        >
+        <div id="projectsContainer" class="mt-4 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <!-- Projects are loaded here using JavaScript -->
         </div>
       </section>
@@ -86,24 +64,21 @@
 
     <script>
       window.onload = function () {
-        fetch("/api/projects")
+        fetch('/api/projects')
           .then((response) => {
             if (!response.ok) {
-              throw new Error("Network response was not ok");
+              throw new Error('Network response was not ok');
             }
             return response.json();
           })
           .then((projects) => {
-            const projectsContainer =
-              document.getElementById("projectsContainer");
+            const projectsContainer = document.getElementById('projectsContainer');
 
             projects.forEach((project) => {
               const projectCard = `
                   <div class="bg-white shadow-md rounded p-6 flex flex-col justify-between">
                       <div>
-                          <h3 class="text-xl font-bold mb-4">${
-                            project.title
-                          }</h3>
+                          <h3 class="text-xl font-bold mb-4">${project.title}</h3>
                           <div class="w-full h-56 animate-pulse rounded mb-4 image-loader gradient-iron" data-image="${
                             project.image
                           }"></div>
@@ -114,7 +89,7 @@
                                   (tech) =>
                                     `<li class="inline-block text-white px-2 py-1 rounded mr-2 mt-2 tag">${tech}</li>`
                                 )
-                                .join("")}
+                                .join('')}
                           </ul>
                       </div>
                       <div class="mt-4 flex justify-between">
@@ -130,20 +105,19 @@
               projectsContainer.innerHTML += projectCard;
             });
 
-            document.querySelectorAll(".image-loader").forEach((loader) => {
-              const imgSrc = loader.getAttribute("data-image");
+            document.querySelectorAll('.image-loader').forEach((loader) => {
+              const imgSrc = loader.getAttribute('data-image');
               const img = new Image();
               img.src = imgSrc;
               img.onload = () => {
                 loader.style.background = `url('${imgSrc}') no-repeat center/cover`;
-                loader.classList.remove("bg-gray-300", "animate-pulse");
+                loader.classList.remove('bg-gray-300', 'animate-pulse');
               };
             });
           })
           .catch((error) => {
-            console.error("Failed to load projects:", error);
-            const projectsContainer =
-              document.getElementById("projectsContainer");
+            console.error('Failed to load projects:', error);
+            const projectsContainer = document.getElementById('projectsContainer');
             projectsContainer.innerHTML = `
                   <div class="text-center py-4 lg:px-4">
                       <div class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
