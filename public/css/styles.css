@@ -1,6 +1,8 @@
 :root {
-    --primary-color: #3a0dd0; /* Electric Blue */
-    --secondary-color: #2DC5FA; /* Ocean Blue */
+    --primary-color: #3a0dd0;
+    /* Electric Blue */
+    --secondary-color: #2DC5FA;
+    /* Ocean Blue */
     --gradient-iron: linear-gradient(45deg, rgba(56, 0, 235, 0.5), rgba(45, 197, 250, 0.5));
     --gradient-hacker: linear-gradient(45deg, rgba(56, 0, 235, 0.5), rgba(154, 22, 240, 0.5));
 
