@@ -1,34 +1,82 @@
 [
     {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
+        "title": "Cat or Banana?",
+        "description": "AI classifier that determines if an image contains a cat or a banana (spoiler: it's usually wrong)",
+        "image": "https://a-static.mlcdn.com.br/1500x1500/boneco-de-pelucia-banana-cat-chorando-17cm-zion-loja-virtual/zion-lojavirtual/1404/c5ce5c4199d4db6dd287b778318323c3.jpeg",
+        "github": "https://github.com/funny-ai-projects/cat-or-banana",
+        "deployed": "https://cat-or-banana.fun",
+        "techStack": ["Python", "TensorFlow", "Flask"]
     },
     {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
+        "title": "Dad Jokes Generator",
+        "description": "API that generates painfully funny dad jokes on demand",
+        "image": "https://www.boredpanda.com/blog/wp-content/uploads/2016/07/funny-dads-parenting-fails-19-5776724f399ca__605.jpg",
+        "github": "https://github.com/joke-generators/dad-jokes",
+        "deployed": "https://dadjokes.io",
+        "techStack": ["Node.js", "Express", "MongoDB"]
     },
     {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
+        "title": "Emoji Fortune Teller",
+        "description": "Get your fortune told through random emoji combinations",
+        "image": "https://icon2.cleanpng.com/20180706/vsv/aax7nc6ik.webp",
+        "github": "https://github.com/emoji-projects/fortune-teller",
+        "deployed": "https://emoji-fortune.fun",
+        "techStack": ["React", "Emoji API"]
+    },
     {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
+        "title": "Pizza or Not Pizza",
+        "description": "Computer vision app that judges if your food is pizza (with dramatic sound effects)",
+        "image": "https://i.imgur.com/vV4XwWk.png",
+        "github": "https://github.com/food-ai/pizza-detector",
+        "deployed": "https://pizza-or-not.com",
+        "techStack": ["Python", "OpenCV", "TensorFlow"]
+    },
+    {
+        "title": "404 Page Generator",
+        "description": "Generates creative 404 error pages featuring dancing robots",
+        "image": "https://i.imgur.com/9ZqG3bF.png",
+        "github": "https://github.com/design-tools/404-generator",
+        "deployed": "https://404fun.dev",
+        "techStack": ["JavaScript", "CSS Animations"]
+    },
+    {
+        "title": "Awkward Meeting Timer",
+        "description": "Countdown timer that plays awkward elevator music when time is up",
+        "image": "https://i.imgur.com/LbJkQhH.png",
+        "github": "https://github.com/productivity-tools/awkward-timer",
+        "deployed": "https://awkwardtimer.com",
+        "techStack": ["React", "Howler.js"]
+    },
+    {
+        "title": "Pet Rock NFT Generator",
+        "description": "Because even rocks deserve blockchain (satire project)",
+        "image": "https://i.imgur.com/mQ4FZyJ.png",
+        "github": "https://github.com/nft-satire/pet-rock",
+        "deployed": "https://petrocknft.io",
+        "techStack": ["Solidity", "React", "Web3.js"]
+    },
+    {
+        "title": "Yelling Machine",
+        "description": "Converts text to ALL CAPS with dramatic sound effects",
+        "image": "https://i.imgur.com/5WqT7EX.png",
+        "github": "https://github.com/text-tools/yelling-machine",
+        "deployed": "https://yellingmachine.fun",
+        "techStack": ["JavaScript", "Web Audio API"]
+    },
+    {
+        "title": "Existential Crisis Bot",
+        "description": "Twitter bot that posts deep questions at 3AM",
+        "image": "https://i.imgur.com/7Q3GtZD.png",
+        "github": "https://github.com/bot-projects/existential-bot",
+        "deployed": "https://twitter.com/deepquestionsbot",
+        "techStack": ["Python", "Tweepy"]
+    },
+    {
+        "title": "Password Strength Tester",
+        "description": "Gives dramatic medieval-style judgments about your weak passwords",
+        "image": "https://i.imgur.com/9YQJVFk.png",
+        "github": "https://github.com/security-tools/password-drama",
+        "deployed": "https://passworddrama.com",
+        "techStack": ["Vue.js", "zxcvbn"]
     }
 ]
