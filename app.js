@@ -30,8 +30,7 @@ app.use(morgan("dev"));
 // ROUTES
 // Start defining your routes here:
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/views/home.html");
- 
+    res.sendFile(__dirname + "/views/home.html");
 });
 
 app.get("/blog", function (req, res) {
@@ -41,7 +40,6 @@ app.get("/blog", function (req, res) {
 
 app.get("/api/projects", function (req, res) {
   res.json(projects);
-
 });
 
 app.get("/api/articles", function (req, res) {
@@ -49,9 +47,9 @@ app.get("/api/articles", function (req, res) {
 });
 
 // 404 Route — always last
-app.use("*", function (req, res) {
-  res.status(404).sendFile(__dirname + "/views/not-found.html");
-});
+app.use((req, res, next) => {
+    res.status(404).sendFile(__dirname + "/views/not-found.html");
+})
 
 // START THE SERVER
 // Make your Express server listen on port 5005:
