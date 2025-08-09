@@ -1,0 +1,25 @@
+Airbnb:
+
+//users
+
+{
+    "_id": mongoDBid (),
+    "userId": ObjectId(user)
+    "name": "abc"
+    "apartments": [
+        objectId: 123,
+        objectId: 456
+    ],
+
+}
+
+// apartments
+{
+    "_id": mongoDBid,
+    apartmentId: objectId(123),
+    reviews: {
+        reviewerId: ObjectId(user),
+        comment: "my comment"
+    },
+
+}
