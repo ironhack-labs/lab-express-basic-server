@@ -1,4 +1,21 @@
 [
+
+        {
+        "title": "Mystic Storybook App",
+        "description": "Storybook reading application built with React, Json-Server, Lucid Icons, Render and Netlify",
+        "image": "../storyappkay.png",
+        "github": "https://github.com/CaptKay/m2_project_ironhack",
+        "deployed": "https://kay-story-book-app.netlify.app/",
+        "techStack": ["React", "Json-Server", "Lucid-Icons", "Render", "Netlify"]
+    },
+        {
+        "title": "Beat The Odd Board Game",
+        "description": "Beat The Odd application built with HTML, CSS, JavaScript, DOM,  Github Pages",
+        "image": "../beatTheOddsImage.png",
+        "github": "https://github.com/CaptKay/Beat-The-Odds-DOM-Board-Game",
+        "deployed": "https://captkay.github.io/Beat-The-Odds-DOM-Board-Game/",
+        "techStack": ["HTML", "CSS", "JavaScript", "Github Pages", "DOM"]
+    },
     {
         "title": "Blackjack Game",
         "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
@@ -31,4 +48,5 @@
         "deployed": "http://example.com",
         "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
     }
+
 ]
