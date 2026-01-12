@@ -1,0 +1,29 @@
+{
+  "name": "lab-express-basic-server",
+  "version": "1.0.0",
+  "description": "<details>\r   <summary>\r     <h2>Learning Goals</h2>\r   </summary>",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentinmarian294-jpg/lab-express-basic-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/valentinmarian294-jpg/lab-express-basic-server/issues"
+  },
+  "homepage": "https://github.com/valentinmarian294-jpg/lab-express-basic-server#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
