@@ -1,0 +1,20 @@
+{
+    "name": "lab-express-basic-server",
+    "version": "1.0.0",
+    "description": "Express Basic Server Lab - Personal Portfolio",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+    },
+    "keywords": ["express", "portfolio", "blog"],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.2",
+      "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
