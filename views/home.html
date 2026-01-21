@@ -135,7 +135,7 @@
               const img = new Image();
               img.src = imgSrc;
               img.onload = () => {
-                loader.style.background = `url('${imgSrc}') no-repeat center/cover`;
+                loader.style.background = `url('${imgSrc}') no-repeat center/contain`;
                 loader.classList.remove("bg-gray-300", "animate-pulse");
               };
             });
