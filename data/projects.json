@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "title": "Blackjack Game",
         "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
         "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
@@ -8,6 +9,7 @@
         "techStack": ["HTML", "CSS", "JavaScript"]
     },
     {
+        "id": "2",
         "title": "Jira Clone",
         "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
         "image": "",
@@ -16,14 +18,16 @@
         "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
     },
     {
+        "id": "3",
         "title": "Cohort Tools",
         "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
         "image": "",
         "github": "https://github.com/exampleuser/examplerepo",
         "deployed": "http://example.com",
         "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
+    },
     {
+        "id": "4",
         "title": "Weather Dashboard",
         "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
         "image": "",
