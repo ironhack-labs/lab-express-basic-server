@@ -32,7 +32,7 @@ app.get('/api/articles', (req, res) => {
   res.json(articles);
 });
 
-// BONUS: 404 CATCH-ALL ROUTE
+// BONUS: 404 CATCH-ALL ROUTE -- Not implemented.
 app.get('*', (req, res) => {
   res.status(404).sendFile(path.join(__dirname, 'views', 'not-found.html'));
 });
