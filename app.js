@@ -1,10 +1,21 @@
 // IMPORT PACKAGES
 // Here you should import the required packages for your Express app: `express` and `morgan`
 
+const express = require ("express")
+const morgan =require ("morgan")
+const app = express()
+const projects = require('./data/projects.json');
+const articles = require('./data/articles.json');
+
+
 
 
 // CREATE EXPRESS APP
 // Here you should create your Express app:
+
+app.use(express.static("public"))
+app.use(express.json())
+app.use(morgan ("dev"))
 
 
 
@@ -14,10 +25,28 @@
 // - `express.json()` to parse incoming requests with JSON payloads
 // - `morgan` logger to log all incoming requests
 
-
+app.listen (5005, () => {
+    console.log("server running on5005")
+})
 
 // ROUTES
 // Start defining your routes here:
+app.get("/", (req, res) => {
+   res.sendFile(__dirname + "/views/home.html");
+});
+
+app.get("/blog", (req, res) => {
+   res.sendFile(__dirname + "/views/blog.html");
+});
+
+app.get("/api/projects", (req, res) => {
+  res.json(projects); //better that send , pass allbooks
+});
+
+
+app.get("/api/articles", (req, res) => {
+  res.json(articles); //better that send , pass allbooks
+});
 
 
 
