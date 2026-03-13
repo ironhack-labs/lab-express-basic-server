@@ -1,7 +1,34 @@
-// IMPORT PACKAGES
-// Here you should import the required packages for your Express app: `express` and `morgan`
+const express = require("express");
+const morgan = require("morgan");
+
+const app = express();
+
+app.use(express.static("public"));
+app.use(express.json());
+app.use(morgan("dev"));
 
 
+app.listenerCount(5005, () => {
+    console.log("Server listening on port 5005")
+});
+
+
+app.get("/", (req, res) => {
+    res.sendFile(__firname + "/views/indec.html");
+});
+
+app.get("/blog", (req, res) => {
+    res.sendFile(__firname + "/views/blog.html");
+});
+
+
+app.get("/api/projects", (req, res) => {
+    res.json(projects);
+});
+
+app.get("/api/articles" (req, res) => {
+    res.json(articles);
+});
 
 // CREATE EXPRESS APP
 // Here you should create your Express app:
