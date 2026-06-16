@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -72,7 +72,7 @@
                           <h3 class="text-2xl font-bold mb-4">${
                             article.title
                           }</h3>
-                      </a>
+                      </a>  
                       <p class="mb-4">${article.body}</p>
                       <div class="mt-4 flex items-center">
                           <img src="/profile.png" alt="${
@@ -90,7 +90,7 @@
                           ${article.tags
                             .map(
                               (tag) =>
-                                `<span class="inline-block text-white px-3 py-1 rounded m-2 tag">${tag}</span>`
+                                `<span class="inline-block text-white px-3 py-1 rounded m-2 tag">${tag}</span>`,
                             )
                             .join("")}
                       </div>
@@ -103,13 +103,13 @@
                           <a href="https://twitter.com/intent/tweet?text=${
                             article.title
                           } - ${
-                window.location.href
-              }" class="mr-4 text-blue-400 hover:text-blue-600" target="_blank"><i class="fab fa-twitter"></i> Share on Twitter</a>
+                            window.location.href
+                          }" class="mr-4 text-blue-400 hover:text-blue-600" target="_blank"><i class="fab fa-twitter"></i> Share on Twitter</a>
                           <a href="https://www.linkedin.com/shareArticle?url=${
                             window.location.href
                           }&title=${
-                article.title
-              }" class="text-blue-700 hover:text-blue-900" target="_blank"><i class="fab fa-linkedin"></i> Share on LinkedIn</a>
+                            article.title
+                          }" class="text-blue-700 hover:text-blue-900" target="_blank"><i class="fab fa-linkedin"></i> Share on LinkedIn</a>
                       </div>
                   </div>
               `;
