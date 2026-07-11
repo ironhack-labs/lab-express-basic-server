@@ -3,6 +3,7 @@
 import express from "express"
 import morgan from "morgan"
 import projects from "./data/projects.json" with {type: "json"}
+import articles from "./data/projects.json" with {type: "json"}
 
 
 // CREATE EXPRESS APP
@@ -45,7 +46,7 @@ app.get("api/articles", (req, res) => {
     }
 });
 
-app.get("/not-found", (req, res) => {
+app.get('*', (req, res) => {
     try {
         res.status(200).sendFile(import.meta.dirnam + "views/not-found.html");
     } catch (error) {
