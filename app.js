@@ -6,6 +6,8 @@
 // CREATE EXPRESS APP
 import express from 'express';
 import morgan from 'morgan';
+import projects from "./data/projects.json" with {type: "json"}
+import articles from "./data/articles.json" with {type: "json"}
 
 const app = express();
 
@@ -27,6 +29,21 @@ app.get('/', (req, res) => {
   res.sendFile("home.html", { root: "views" });
 });
 
+app.get("/blog", (req,res) => {
+  res.sendFile("blog.html", { root: "views" });
+})
+
+app.get("/api/projects", (req,res) => {
+  res.send(projects);
+})
+
+app.get("/api/articles", (req,res) => {
+  res.send(articles);
+})
+
+app.use((req,res) => {
+  res.sendFile("not-found.html", { root: "views" });
+})
 
 // START THE SERVER
 app.listen(5005, () => {
