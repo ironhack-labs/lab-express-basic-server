@@ -1,0 +1,30 @@
+{
+  "name": "lab-express-basic-server",
+  "version": "1.0.0",
+  "description": "Express standalon server",
+  "homepage": "https://github.com/joaquimchango/lab-express-basic-server#readme",
+  "bugs": {
+    "url": "https://github.com/joaquimchango/lab-express-basic-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaquimchango/lab-express-basic-server.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "dotevn": "^0.0.1-security",
+    "express": "^5.2.1",
+    "morgan": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
