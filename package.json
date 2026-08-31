@@ -1,0 +1,26 @@
+{
+  "name": "lab-express-basic-server",
+  "version": "1.0.0",
+  "description": "<details>   <summary>     <h2>Learning Goals</h2>   </summary>",
+  "homepage": "https://github.com/bareshekhala/lab-express-basic-server#readme",
+  "bugs": {
+    "url": "https://github.com/bareshekhala/lab-express-basic-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bareshekhala/lab-express-basic-server.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "morgan": "^1.12.0"
+  }
+}
