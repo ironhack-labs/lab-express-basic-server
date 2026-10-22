@@ -1,25 +1,40 @@
-// IMPORT PACKAGES
-// Here you should import the required packages for your Express app: `express` and `morgan`
+// 1. Importar paquetes
+import projects from './data/projects.json'
+import articles from './data/articles.json'
+const express = require("express");
+const morgan = require("morgan");
 
+// 2. Crear servidor Express
+const app = express();
 
+// 3. Middleware básico
 
-// CREATE EXPRESS APP
-// Here you should create your Express app:
+// Servir archivos estáticos desde la carpeta "public"
+app.use(express.static("public"));
 
+// Parsear JSON en el body de las peticiones
+app.use(express.json());
 
+// Logger de peticiones HTTP
+app.use(morgan("dev"));
 
-// MIDDLEWARE
-// Here you should set up the required middleware:
-// - `express.static()` to serve static files from the `public` folder
-// - `express.json()` to parse incoming requests with JSON payloads
-// - `morgan` logger to log all incoming requests
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + "views/index.html")
+})
 
+app.get("/blog", (req, res) => {
+    res.sendFile(__dirname + "views/blog.html")
+})
 
+app.get("/api/projects", (req, res) => {
+    res.json(projects);
+})
 
-// ROUTES
-// Start defining your routes here:
+app.get("/api/articles", (req, res) => {
+    res.json(articles);
+})
 
-
-
-// START THE SERVER
-// Make your Express server listen on port 5005:
+// 4. Iniciar servidor en puerto 5005
+app.listen(5005, () => {
+  console.log("Server running on port 5005");
+});
