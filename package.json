@@ -1,0 +1,27 @@
+{
+  "name": "lab-express-basic-server",
+  "version": "1.0.0",
+  "description": "Basic Express server for a personal blog and projects showcase",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgouveia-lab/lab-express-basic-server.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jgouveia-lab/lab-express-basic-server/issues"
+  },
+  "homepage": "https://github.com/jgouveia-lab/lab-express-basic-server#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "morgan": "^1.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
