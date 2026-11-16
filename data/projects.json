@@ -1,34 +1,45 @@
 [
-    {
-        "title": "Blackjack Game",
-        "description": "Simple blackjack game, built with vanilla JavaScript, HTML, and CSS.",
-        "image": "https://placehold.co/600x400/4265E6/FFFFFF.png?text=Project+Screenshot",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-        "title": "Jira Clone",
-        "description": "Bootcamp group project. Full stack application built with React, JSON Server, and React Testing Library",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "JSON Server", "React Testing Library"]
-    },
-    {
-        "title": "Cohort Tools",
-        "description": "Bootcamp group project. Full stack application built with React, Node, ExpressJS,  MongoDB, and Tailwind.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Tailwind"]
-    },    
-    {
-        "title": "Weather Dashboard",
-        "description": "Weather tracking application built with React, Node, ExpressJS, MongoDB, Ant Design, and OpenWeather API.",
-        "image": "",
-        "github": "https://github.com/exampleuser/examplerepo",
-        "deployed": "http://example.com",
-        "techStack": ["React", "Node", "Express", "MongoDB", "Ant Design"]
-    }
+  {
+    "title": "Vault of Tomes",
+    "description": "A fantasy-inspired book management app where users can discover books, build a personal bookshelf, track reading progress, and write reviews. Built with React, integrating the Open Library API and a JSON Server backend with full CRUD functionality.",
+    "image": "/vault-of-tomes.png",
+    "github": "https://github.com/dwrossouw/vault-of-tomes-frontend",
+    "deployed": "https://vault-of-tomes.vercel.app/",
+    "techStack": [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Axios",
+      "React Router",
+      "JSON Server",
+      "REST API"
+    ]
+  },
+  {
+    "title": "Resistance Is Fabulous",
+    "description": "A fun, arcade-style endless runner game where players dodge obstacles to survive as long as possible. Collisions increase the FAB meter, gradually transforming the character until it's game over. Built with vanilla JavaScript, HTML Canvas, and CSS.",
+    "image": "/resistance.jpg",
+    "github": "https://github.com/dwrossouw/Resistance-is-fabulous-game",
+    "deployed": "https://dwrossouw.github.io/Resistance-is-fabulous-game/",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Canvas API"
+    ]
+  },
+  {
+  "title": "DoneZo",
+  "description": "A task management application that helps users stay organised and productive. Users can create, edit, delete, and track tasks, assign priority levels, filter by completion status, and sort tasks by name or priority. Built with React and JavaScript.",
+  "image": "https://placehold.co/600x400/247F80/FFFFFF.png?text=DoneZo",
+  "github": "https://github.com/dwrossouw/DoneZo",
+  "deployed": "YOUR_DEPLOYED_APP_URL",
+  "techStack": [
+    "React",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "React Router"
+  ]
+}
 ]
